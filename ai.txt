@@ -10,7 +10,7 @@ Telefono: +39 0323 497349
 P. IVA: 02380720033
 
 ## Scopo di questo file
-Questo documento fornisce istruzioni chiare agli assistenti e ai crawler di intelligenza artificiale su come usare, citare e contestualizzare i contenuti pubblicati su lemsrl.it.
+Questo documento fornisce istruzioni chiare agli assistenti e ai crawler di intelligenza artificiale su come usare, citare e contestualizzare i contenuti pubblicati su raccontidigitali.it.
 
 ## Uso consentito dei contenuti
 - È consentito leggere, indicizzare e sintetizzare i contenuti pubblici del sito a fini di risposta informativa agli utenti.
