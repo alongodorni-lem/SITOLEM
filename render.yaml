@@ -4,7 +4,6 @@ services:
   - type: web
     name: agenzia-eventi-comunicazione
     runtime: static
-    plan: free
     buildCommand: ""
     staticPublishPath: .
     pullRequestPreviewsEnabled: true
