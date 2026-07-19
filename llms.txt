@@ -1,4 +1,4 @@
-# llms.txt — Mappa contenuti per crawler e modelli linguistici
+﻿# llms.txt — Mappa contenuti per crawler e modelli linguistici
 # Updated: 2026-07-20
 # LEM s.r.l. — https://raccontidigitali.it/
 

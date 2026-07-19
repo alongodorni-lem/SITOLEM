@@ -1,4 +1,4 @@
-# ai.txt — Policy per assistenti e sistemi di intelligenza artificiale
+﻿# ai.txt — Policy per assistenti e sistemi di intelligenza artificiale
 # Updated: 2026-07-20
 # LEM s.r.l. — https://raccontidigitali.it/
 
