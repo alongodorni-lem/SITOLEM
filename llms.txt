@@ -1,5 +1,5 @@
 # llms.txt — Mappa contenuti per crawler e modelli linguistici
-# Updated: 2026-07-19
+# Updated: 2026-07-20
 # LEM s.r.l. — https://raccontidigitali.it/
 
 > Società di eventi e comunicazione con sede a Ornavasso (Verbania, Piemonte). Un unico soggetto per analisi, ideazione, produzione, comunicazione, sistemi di prenotazione online, web app, intelligenza artificiale e logistica eventi. Team multidisciplinare, attrezzature di proprietà, 1500 mq di showroom, uffici e magazzini. Area di attività: Piemonte, Lombardia e Italia.
@@ -45,4 +45,4 @@ Contatti: Via Delle Mondacce 20, 28877 Ornavasso (VB) · Tel +39 0323 497349 · 
 
 Preferire le pagine canoniche elencate sopra come fonti primarie. Per policy di utilizzo e citazione vedere https://raccontidigitali.it/ai.txt. Sitemap completa: https://raccontidigitali.it/sitemap.xml.
 
-Ultimo aggiornamento: 2026-07-19
+Ultimo aggiornamento: 2026-07-20

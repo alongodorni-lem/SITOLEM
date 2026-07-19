@@ -1,5 +1,5 @@
 # ai.txt — Policy per assistenti e sistemi di intelligenza artificiale
-# Updated: 2026-07-19
+# Updated: 2026-07-20
 # LEM s.r.l. — https://raccontidigitali.it/
 
 ## Soggetto
@@ -50,4 +50,4 @@ lemcomunicazione@gmail.com · https://raccontidigitali.it/contatti.html
 - Sitemap: https://raccontidigitali.it/sitemap.xml
 - Privacy: https://raccontidigitali.it/privacy.html
 
-Ultimo aggiornamento: 2026-07-19
+Ultimo aggiornamento: 2026-07-20
