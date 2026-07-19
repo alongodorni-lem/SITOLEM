@@ -3,6 +3,7 @@ Allow: /
 
 Sitemap: https://raccontidigitali.it/sitemap.xml
 
-# Orientamento per assistenti e crawler IA
-# https://raccontidigitali.it/llms.txt
-# https://raccontidigitali.it/ai.txt
+# Last-Modified: 2026-07-19
+# File di orientamento per assistenti e crawler IA (raccontidigitali.it):
+# llms.txt — mappa contenuti per LLM: https://raccontidigitali.it/llms.txt
+# ai.txt — policy citazione e uso: https://raccontidigitali.it/ai.txt
