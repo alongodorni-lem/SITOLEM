@@ -1,8 +1,8 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.lemsrl.it/sitemap.xml
+Sitemap: https://raccontidigitali.it/sitemap.xml
 
 # Orientamento per assistenti e crawler IA
-# https://www.lemsrl.it/llms.txt
-# https://www.lemsrl.it/ai.txt
+# https://raccontidigitali.it/llms.txt
+# https://raccontidigitali.it/ai.txt
