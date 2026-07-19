@@ -60,6 +60,13 @@
   --max-w-narrow: 980px;
 
   --nav-h: 74px;
+
+  /* Top header wash (mint/teal → page bg) — ecosistema-booking presentazione */
+  --header-wash-mint: #E8F0EE;
+  --header-wash-radial: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(36, 90, 82, 0.12), transparent 60%);
+  --header-wash-linear: linear-gradient(180deg, var(--header-wash-mint) 0%, var(--bg) 55%);
+  --header-wash-bg: var(--header-wash-radial), var(--header-wash-linear);
+  --header-wash-height: min(520px, 55vh);
 }
 
 * { box-sizing: border-box; }
@@ -71,7 +78,11 @@ html, body {
   padding: 0;
   font-family: var(--font-sans);
   color: var(--text);
-  background: var(--bg);
+  background-color: var(--bg);
+  background-image: var(--header-wash-bg);
+  background-repeat: no-repeat;
+  background-size: 100% var(--header-wash-height);
+  background-position: top center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.6;
@@ -294,7 +305,7 @@ em {
   position: relative;
   padding: 90px 24px 100px 24px;
   overflow: hidden;
-  background: var(--bg);
+  background: var(--header-wash-bg);
   border-bottom: 1px solid var(--border);
 }
 
@@ -572,8 +583,7 @@ body.home-intro-done #site-footer {
 
 .hero-intro__content.is-tagline .intro-waves .intro-wave,
 .hero-intro__content.is-dismissed .intro-waves .intro-wave,
-.concept-map-stage.is-revealed .intro-waves .intro-wave,
-.concept-hub-mini.is-ready .intro-waves .intro-wave {
+.concept-map-stage.is-revealed .intro-waves .intro-wave {
   animation: none;
   opacity: 0;
 }
@@ -1288,7 +1298,8 @@ body.home-intro-done #site-footer {
 .concept-hub-mini:hover,
 .concept-hub-mini:focus-visible {
   transform: scale(1.04);
-  outline: none;
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
 }
 
 .concept-hub-mini__svg {
@@ -2310,7 +2321,7 @@ body.home-intro-done #site-footer {
  * ============================================================ */
 .project-hero {
   padding: 90px 24px 60px 24px;
-  background: var(--bg);
+  background: var(--header-wash-bg);
   border-bottom: 1px solid var(--border);
 }
 
