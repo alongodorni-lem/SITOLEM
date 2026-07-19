@@ -27,9 +27,22 @@ services:
         name: Cache-Control
         value: public, max-age=31536000, immutable
     routes:
-      - type: rewrite
+      # Canonical URL consolidation: one preferred URL per progetto page
+      - type: redirect
+        source: /progetti/:slug/index.html
+        destination: /progetti/:slug/
+      - type: redirect
+        source: /progetti/:slug/presentazione/index.html
+        destination: /progetti/:slug/presentazione/
+      - type: redirect
+        source: /progetti/:slug/presentazione
+        destination: /progetti/:slug/presentazione/
+      - type: redirect
         source: /progetti/:slug
+        destination: /progetti/:slug/
+      - type: rewrite
+        source: /progetti/:slug/
         destination: /progetti/:slug/index.html
       - type: rewrite
-        source: /progetti/:slug/presentazione
+        source: /progetti/:slug/presentazione/
         destination: /progetti/:slug/presentazione/index.html
