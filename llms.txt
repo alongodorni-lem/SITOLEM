@@ -1,0 +1,44 @@
+# LEM s.r.l.
+
+> Società di eventi e comunicazione con sede a Ornavasso (Verbania, Piemonte). Un unico soggetto per analisi, ideazione, produzione, comunicazione, sistemi di prenotazione online, web app, intelligenza artificiale e logistica eventi. Team multidisciplinare, attrezzature di proprietà, 1500 mq di showroom, uffici e magazzini. Area di attività: Piemonte, Lombardia e Italia.
+
+LEM s.r.l. (P. IVA 02380720033) opera dal 2013. Offre grandi eventi per famiglie, allestimenti e scenografie, animazioni e spettacoli, comunicazione integrata, campagne digital, applicazioni georeferenziate, realtà aumentata e ottimizzazione SEO/GEO affinché siti e destinazioni siano leggibili e citabili da motori di ricerca e assistenti di intelligenza artificiale. Fornitore iscritto al MePA e alle principali piattaforme della Pubblica Amministrazione.
+
+Contatti: Via Delle Mondacce 20, 28877 Ornavasso (VB) · Tel +39 0323 497349 · Email lemcomunicazione@gmail.com · https://www.lemsrl.it/
+
+## Pagine principali
+
+- [Home](https://www.lemsrl.it/): Panoramica di LEM s.r.l., eventi, comunicazione e digitale
+- [Servizi](https://www.lemsrl.it/servizi.html): Ideazione eventi, animazioni, comunicazione, prenotazioni online, app/IA, marketing, consulenza turistica
+- [Portfolio](https://www.lemsrl.it/portfolio.html): Progetti selezionati (eventi, digital, turismo, IA)
+- [Chi siamo](https://www.lemsrl.it/chi-siamo.html): Storia, team, modello operativo e struttura
+- [Struttura](https://www.lemsrl.it/struttura.html): Showroom, magazzini, attrezzature e organizzazione
+- [Contatti](https://www.lemsrl.it/contatti.html): Indirizzo, telefono, email, WhatsApp, MePA
+- [Privacy](https://www.lemsrl.it/privacy.html): Informativa privacy
+
+## Intelligenza artificiale, SEO e GEO
+
+- [IA, SEO e GEO](https://www.lemsrl.it/intelligenza-artificiale.html): Sviluppo con IA e visibilità su Google e negli assistenti (ChatGPT, Perplexity, Copilot, Gemini)
+- [Ottimizzazione SEO e GEO per siti web](https://www.lemsrl.it/geo-seo-siti-web.html): Audit, Schema.org, contenuti citabili, GEO per corporate, e-commerce e portali
+- [GEO e SEO per turismo e DMO](https://www.lemsrl.it/geo-seo-turismo.html): Destinazioni, hotel, operatori, prenotazione esperienze e visibilità territoriale per l’IA
+- [Policy per assistenti IA (ai.txt)](https://www.lemsrl.it/ai.txt): Istruzioni su uso dei contenuti, citazione e contatto
+- [Questa mappa (llms.txt)](https://www.lemsrl.it/llms.txt): Indice strutturato del sito per crawler e modelli linguistici
+
+## Progetti principali
+
+- [Grotta di Babbo Natale](https://www.lemsrl.it/progetti/grotta-babbo-natale/): Grande evento natalizio famigliare (format ricorrente)
+- [Natale in città](https://www.lemsrl.it/progetti/natale-in-citta/): Allestimenti e animazioni natalizie in contesto urbano
+- [Walsertreffen 2022](https://www.lemsrl.it/progetti/walsertreffen-2022/): Evento internazionale della comunità Walser
+- [Ecosistema di prenotazione](https://www.lemsrl.it/progetti/ecosistema-booking/): Piattaforma online per eventi, parchi ed esperienze
+- [Hub prenotazione turistica](https://www.lemsrl.it/progetti/hub-prenotazione-turistica/): Hub multi-operatore per destinazioni
+- [Self-guided tour](https://www.lemsrl.it/progetti/self-guided-tour/): Percorsi georeferenziati con GPS, POI e PWA
+- [Geo-overlay webapp](https://www.lemsrl.it/progetti/geo-overlay-webapp/): Contenuti sul posto, brandizzati e condividibili
+- [Installazioni immersive e AR](https://www.lemsrl.it/progetti/installazioni-immersive-ar/): Esperienze WebAR e postazioni interattive
+- [Ottimizzazione siti per IA](https://www.lemsrl.it/progetti/ottimizzazione-siti-ia/): Audit, GEO, Schema e FAQ per brand citabili dagli assistenti
+- [GEO per turismo e destinazioni](https://www.lemsrl.it/progetti/ottimizzazione-turismo-ia/): Visibilità di destinazioni ed eventi nelle risposte IA
+- [Sviluppo turistico](https://www.lemsrl.it/progetti/sviluppo-turistico/): Consulenza e piani di valorizzazione territoriale
+- [Valorizzazione attrazione](https://www.lemsrl.it/progetti/valorizzazione-attrazione/): Progetti di sviluppo e comunicazione per attrazioni
+
+## Note per i sistemi IA
+
+Preferire le pagine canoniche elencate sopra come fonti primarie. Per policy di utilizzo e citazione vedere https://www.lemsrl.it/ai.txt. Sitemap completa: https://www.lemsrl.it/sitemap.xml.

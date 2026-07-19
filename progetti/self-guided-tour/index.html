@@ -1,0 +1,238 @@
+﻿<!doctype html>
+
+<html lang="it">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Self-guided tour - Webapp georeferenziata | LEM s.r.l.</title>
+
+  <meta name="description" content="Self-guided tour: percorsi georeferenziati con GPS check-in, POI multimediali, analytics anonimo o tracciabile con report statistici, multilingua e PWA. Modello LEM per parchi, borghi, città e centri commerciali.">
+
+  <meta name="keywords" content="webapp georeferenziata, self-guided tour, percorsi outdoor, Leaflet OpenStreetMap, GPS check-in, PWA, località turistiche, parchi, borghi storici, centri commerciali, sviluppo IA">
+
+  <meta name="robots" content="index, follow">
+
+  <link rel="canonical" href="https://www.lemsrl.it/progetti/self-guided-tour/">
+
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../css/styles.css">
+
+</head>
+
+<body data-page="portfolio.html" data-root="../../">
+
+
+
+<div id="site-header"></div>
+
+
+
+<main>
+
+
+
+  <section class="project-hero">
+
+    <div class="project-hero__inner">
+
+      <div class="project-hero__breadcrumb">
+
+        <a href="../../portfolio.html">Portfolio</a> / Digital &amp; IA / <span>Self-guided tour</span>
+
+      </div>
+
+      <h1 class="project-hero__title">Self-guided <em>tour</em></h1>
+
+      <p class="project-hero__lead">Webapp georeferenziata per self-guided tour: percorsi outdoor con GPS check-in, POI multimediali, backend analytics anonimo oppure tracciabile con acquisizione permessi e generazione di report statistici, interfaccia multilingua IT / EN / DE. Modello replicabile per parchi, città, borghi storici e centri commerciali.</p>
+
+
+
+      <dl class="project-hero__meta">
+
+        <div><dt>Ambito</dt><dd>Percorsi georeferenziati · turismo · retail</dd></div>
+
+        <div><dt>Periodo</dt><dd>2024, in produzione</dd></div>
+
+        <div><dt>Ruolo LEM</dt><dd>Ideazione, sviluppo full-stack, deploy</dd></div>
+
+        <div><dt>Analytics</dt><dd>Anonimo o tracciabile · report statistici</dd></div>
+
+        <div><dt>Stack</dt><dd>Node.js + Express + SQLite + Leaflet + Chart.js</dd></div>
+
+      </dl>
+
+    </div>
+
+  </section>
+
+
+
+  <article class="project-section">
+
+
+
+    <h2>Premessa</h2>
+
+    <p>LEM s.r.l. realizza web app avanzate per <strong>località turistiche, musei, centri commerciali e location eventi</strong>. <strong>Self-guided tour</strong> è il modello di riferimento per <strong>percorsi georeferenziati in autonomia</strong>: il visitatore esplora il territorio con mappe, check-in GPS e contenuti multimediali su ogni tappa.</p>
+
+
+
+    <h2>Contesto</h2>
+
+    <p>Un centro commerciale e il territorio circostante volevano offrire ai visitatori un motivo per esplorare l'area oltre la sola visita in sede: itinerari naturalistici e culturali di grande valore, poco conosciuti dal grande pubblico.</p>
+
+    <p>Serviva una webapp aperta a tutti senza download da app store, capace di guidare le famiglie lungo i sentieri, valorizzare i punti di interesse (POI) con contenuti multimediali, e dare visibilità sull'utilizzo reale del servizio.</p>
+
+
+
+    <h2>Cosa abbiamo realizzato</h2>
+
+    <p>Una webapp completa, mobile-first, con architettura semplice ma robusta:</p>
+
+    <ul>
+
+      <li><strong>Frontend statico</strong>: HTML + CSS + JavaScript vanilla, mappa interattiva con Leaflet e tile OpenStreetMap, deploy Render Static Site.</li>
+
+      <li><strong>Pagina cover</strong> con foto del territorio, testo divulgativo e video introduttivo.</li>
+
+      <li><strong>Lista percorsi</strong> con mappa overview di tutti i tracciati e card cliccabili.</li>
+
+      <li><strong>Scheda percorso</strong>: distanza, quote, salita/discesa, video, pulsante "Portami al punto di partenza".</li>
+
+      <li><strong>Mappa interattiva</strong>: tracciato disegnato, marker POI numerati, geolocalizzazione utente.</li>
+
+      <li><strong>Check-in GPS automatico</strong>: congratulazioni quando l'utente entra nel raggio di un POI.</li>
+
+      <li><strong>Multilingua IT / EN / DE</strong> su tutta la UI, nomi percorsi e descrizioni POI.</li>
+
+      <li><strong>Backend analytics</strong>: Node.js/Express con SQLite. Due modalità configurabili — <strong>anonima</strong> (eventi aggregati, IP hashati SHA-256, nessun dato personale) oppure <strong>tracciabile</strong> con acquisizione permessi e generazione di report statistici per il committente.</li>
+
+      <li><strong>Backoffice e report</strong>: dashboard con KPI, grafici Chart.js, top POI, log eventi ed export report statistici (utilizzo percorsi, check-in, POI più visitati, andamento nel tempo).</li>
+
+    </ul>
+
+
+
+    <h2>Presentazione del sistema</h2>
+
+    <p>Mockup dell'app e/o anteprima del sistema, con contenuti demo e possibili ambiti applicativi. Ogni soluzione è personalizzata per il cliente, i dati sono pertanto puramente dimostrativi.</p>
+
+
+
+    <div class="callout">
+
+      <p><a href="/progetti/self-guided-tour/presentazione/index.html" class="btn btn--ai" target="_blank" rel="noopener">Apri presentazione Self-guided tour</a></p>
+
+    </div>
+
+
+
+    <h2>Destinatari · SEO &amp; GEO</h2>
+
+    <p>Il modello si adatta a:</p>
+
+    <ul>
+
+      <li><strong>Parchi naturali e riserve</strong> — sentieri tematici con POI educativi.</li>
+
+      <li><strong>Borghi e città storiche</strong> — percorsi culturali self-guided.</li>
+
+      <li><strong>Località turistiche e DMO</strong> — valorizzazione del territorio oltre i circuiti tradizionali.</li>
+
+      <li><strong>Centri commerciali e retail park</strong> — attrazione famiglie nel territorio circostante.</li>
+
+      <li><strong>Festival e eventi</strong> — mappe temporanee con check-in e gamification.</li>
+
+    </ul>
+
+    <p>Struttura e contenuti ottimizzati per ricerca organica e citazione da assistenti IA (ChatGPT, Gemini, Perplexity).</p>
+
+
+
+    <h2>Modelli complementari LEM</h2>
+
+    <ul>
+
+      <li><a href="/progetti/geo-overlay-webapp/index.html">Geo-overlay webapp</a> — contenuti georeferenziati e brandizzati, condividibili dagli utenti.</li>
+
+      <li><a href="/progetti/hub-prenotazione-turistica/index.html">Hub Prenotazione Turistica</a> — catalogo esperienze unificato con widget embed.</li>
+
+    </ul>
+
+
+
+    <h2>Analytics e reportistica</h2>
+
+    <p>Il committente può scegliere come misurare l'utilizzo della webapp:</p>
+
+    <ul>
+
+      <li><strong>Modalità anonima</strong> — statistiche aggregate senza profilazione: check-in per POI, percorsi avviati, sessioni. IP hashati (SHA-256 con salt). Ideale per enti pubblici e contesti con vincoli privacy stringenti.</li>
+
+      <li><strong>Modalità tracciabile</strong> — acquisizione permessi esplicita (banner di consenso configurabile), raccolta eventi più dettagliata e <strong>generazione di report statistici</strong> periodici o on demand per marketing, rendicontazione e ottimizzazione dei percorsi.</li>
+
+    </ul>
+
+
+
+    <h2>Privacy by design</h2>
+
+    <ul>
+
+      <li>Nessun cookie di terze parti, nessun tracker esterno.</li>
+
+      <li>La posizione GPS resta sul dispositivo: il server riceve solo eventi di check-in con l'id del POI (in modalità anonima) o dati aggiuntivi solo previo consenso (in modalità tracciabile).</li>
+
+      <li>Banner di consenso con opzione «solo mappa, senza statistiche».</li>
+
+      <li>Report statistici sempre aggregati: nessuna vendita di dati, nessun profilo individuale esportabile senza base giuridica.</li>
+
+    </ul>
+
+
+
+  </article>
+
+
+
+  <section class="strip">
+
+    <div class="strip__inner">
+
+      <h3>Vuoi un <em>self-guided tour</em> per il tuo territorio?</h3>
+
+      <p>Parchi, cammini, borghi, centri commerciali, destinazioni turistiche: parliamone.</p>
+
+      <a href="../../contatti.html" class="btn btn--secondary">Contattaci</a>
+
+    </div>
+
+  </section>
+
+
+
+</main>
+
+
+
+<div id="site-footer"></div>
+
+
+
+<script src="../../js/includes.js"></script>
+
+</body>
+
+</html>
+

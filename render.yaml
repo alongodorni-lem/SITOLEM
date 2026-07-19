@@ -1,0 +1,36 @@
+# LEM s.r.l. — static site su Render.com
+# Doc: https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: agenzia-eventi-comunicazione
+    runtime: static
+    plan: free
+    buildCommand: ""
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: true
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: SAMEORIGIN
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
+      - path: /css/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+      - path: /js/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+      - path: /assets/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+    routes:
+      - type: rewrite
+        source: /progetti/:slug
+        destination: /progetti/:slug/index.html
+      - type: rewrite
+        source: /progetti/:slug/presentazione
+        destination: /progetti/:slug/presentazione/index.html

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 520" role="img" aria-labelledby="ciTitle ciDesc">
+  <title id="ciTitle">Check-in e check-out operativi - schema</title>
+  <desc id="ciDesc">Flusso operativo di accoglienza: scansione, stato prenotazione, report giornaliero.</desc>
+
+  <rect width="1100" height="520" fill="#F5F4F0"/>
+
+  <rect x="24" y="24" width="340" height="472" rx="4" fill="#FFFFFF" stroke="#D9D8D3"/>
+  <rect x="24" y="24" width="340" height="48" fill="#245A52"/>
+  <text x="194" y="54" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="700">1 - Arrivo</text>
+  <rect x="56" y="100" width="276" height="160" rx="3" fill="#EEEDE8" stroke="#245A52" stroke-dasharray="4 3"/>
+  <rect x="120" y="130" width="148" height="100" rx="2" fill="#FFFFFF" stroke="#245A52"/>
+  <rect x="140" y="150" width="108" height="60" fill="#245A52" opacity=".15"/>
+  <text x="194" y="185" text-anchor="middle" fill="#245A52" font-size="11" font-family="sans-serif" font-weight="600">QR / codice</text>
+  <text x="194" y="290" text-anchor="middle" fill="#171717" font-family="Georgia, serif" font-size="18" font-weight="600">Scansione voucher</text>
+  <text x="194" y="320" text-anchor="middle" fill="#686868" font-size="13" font-family="sans-serif">Ingresso evento, parco,</text>
+  <text x="194" y="340" text-anchor="middle" fill="#686868" font-size="13" font-family="sans-serif">traghetto, test drive</text>
+  <rect x="72" y="380" width="244" height="40" rx="2" fill="#245A52"/>
+  <text x="194" y="405" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif" font-weight="600">Apri lettore</text>
+
+  <rect x="380" y="24" width="340" height="472" rx="4" fill="#FFFFFF" stroke="#245A52" stroke-width="2"/>
+  <rect x="380" y="24" width="340" height="48" fill="#245A52"/>
+  <text x="550" y="54" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="700">2 - Validazione</text>
+  <text x="404" y="110" fill="#686868" font-size="11" font-family="sans-serif" letter-spacing="1">STATO PRENOTAZIONE</text>
+  <text x="404" y="142" fill="#245A52" font-family="Georgia, serif" font-size="22" font-weight="600">Confermata</text>
+  <rect x="404" y="168" width="292" height="1" fill="#D9D8D3"/>
+  <text x="404" y="200" fill="#686868" font-size="12" font-family="sans-serif">Risorsa</text>
+  <text x="404" y="222" fill="#171717" font-size="14" font-family="sans-serif">Percorso avventura - fascia A</text>
+  <text x="404" y="258" fill="#686868" font-size="12" font-family="sans-serif">Partecipanti</text>
+  <text x="404" y="280" fill="#171717" font-size="14" font-family="sans-serif">4 - di cui 1 under 12</text>
+  <text x="404" y="316" fill="#686868" font-size="12" font-family="sans-serif">Intestatario</text>
+  <text x="404" y="338" fill="#C4C3BD" font-size="14" font-family="sans-serif">Nome oscurato</text>
+  <rect x="404" y="380" width="136" height="40" rx="2" fill="#245A52"/>
+  <text x="472" y="405" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif" font-weight="600">Check-in</text>
+  <rect x="560" y="380" width="136" height="40" rx="2" fill="#FFFFFF" stroke="#245A52"/>
+  <text x="628" y="405" text-anchor="middle" fill="#245A52" font-size="13" font-family="sans-serif" font-weight="600">Check-out</text>
+  <text x="550" y="460" text-anchor="middle" fill="#245A52" font-size="11" font-family="sans-serif" font-weight="700">FUNZIONE CHIAVE</text>
+
+  <rect x="736" y="24" width="340" height="472" rx="4" fill="#FFFFFF" stroke="#D9D8D3"/>
+  <rect x="736" y="24" width="340" height="48" fill="#1A433D"/>
+  <text x="906" y="54" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="700">3 - Report</text>
+  <text x="760" y="110" fill="#686868" font-size="11" font-family="sans-serif" letter-spacing="1">OGGI - LIVE</text>
+  <text x="760" y="150" fill="#171717" font-family="Georgia, serif" font-size="36" font-weight="600">128</text>
+  <text x="760" y="176" fill="#686868" font-size="13" font-family="sans-serif">check-in effettuati</text>
+  <rect x="760" y="200" width="292" height="8" rx="4" fill="#EEEDE8"/>
+  <rect x="760" y="200" width="210" height="8" rx="4" fill="#245A52"/>
+  <text x="760" y="240" fill="#171717" font-size="13" font-family="sans-serif">Presenti in struttura - 96</text>
+  <text x="760" y="264" fill="#171717" font-size="13" font-family="sans-serif">Check-out chiusi - 32</text>
+  <text x="760" y="288" fill="#171717" font-size="13" font-family="sans-serif">No-show - 4</text>
+  <rect x="760" y="320" width="292" height="1" fill="#D9D8D3"/>
+  <text x="760" y="356" fill="#686868" font-size="12" font-family="sans-serif">Export CSV - PDF - email automatica</text>
+  <text x="760" y="384" fill="#686868" font-size="12" font-family="sans-serif">Segmentazione per risorsa / fascia</text>
+  <rect x="760" y="420" width="292" height="40" rx="2" fill="#EEEDE8" stroke="#245A52"/>
+  <text x="906" y="445" text-anchor="middle" fill="#245A52" font-size="13" font-family="sans-serif" font-weight="600">Scarica report giornata</text>
+</svg>

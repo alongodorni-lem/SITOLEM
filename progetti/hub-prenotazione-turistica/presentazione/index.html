@@ -1,0 +1,270 @@
+﻿<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hub Prenotazione Turistica — Presentazione servizio LEM</title>
+<meta name="description" content="Piattaforma di prenotazione unificata per destinazioni turistiche: esperienze, hotel, attività, widget embed. Modello LEM s.r.l. per località, musei, parchi e centri commerciali.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/styles.css">
+<style>
+:root{
+  --bg:#F5F4F0;--panel:#FFFFFF;--panel2:#EEEDE8;
+  --text:#171717;--muted:#686868;--accent:#245A52;--accent2:#1A433D;
+  --green:#245A52;--gold:#245A52;
+  --line:#D9D8D3;
+  --shadow:0 2px 8px rgba(23,23,23,.08);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"DM Sans",system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;font-size:15px}
+h1,h2,h3{font-family:"Source Serif 4",Georgia,serif;font-weight:600;line-height:1.15}
+main a{color:var(--accent)}
+.slide{max-width:1100px;margin:0 auto;padding:72px 28px;border-bottom:1px solid var(--line)}
+.slide-tag{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:12px;display:block}
+.slide h2{font-size:clamp(28px,4vw,40px);margin:0 0 12px}
+.lead{color:var(--muted);font-size:17px;max-width:780px;margin:0 0 28px}
+
+.hero{max-width:none;text-align:center;padding:100px 28px 88px;background:var(--bg);border-bottom:1px solid var(--line)}
+.hero .kicker{display:inline-block;font-size:11px;letter-spacing:4px;text-transform:uppercase;color:var(--accent);border:1px solid var(--line);padding:6px 16px;border-radius:2px;margin-bottom:20px;background:var(--panel)}
+.hero h1{font-size:clamp(36px,6vw,58px);margin:0 0 14px;color:var(--text)}
+.hero .subtitle{font-size:18px;color:var(--muted);max-width:720px;margin:0 auto 32px}
+.pills{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:28px}
+.pill{font-size:12px;padding:6px 14px;border-radius:2px;background:var(--panel);color:var(--muted);border:1px solid var(--line)}
+
+.grid-3{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;margin-top:24px}
+.grid-2{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px;margin-top:24px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:22px;transition:border-color .2s,box-shadow .2s}
+.card:hover{border-color:var(--accent);box-shadow:var(--shadow)}
+.card .ic{font-size:28px;margin-bottom:10px}
+.card h3{font-size:17px;margin:0 0 8px;font-family:"Source Serif 4",Georgia,serif}
+.card p{margin:0;font-size:13.5px;color:var(--muted);line-height:1.55}
+
+.experience-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px;margin-top:28px}
+.exp{border-radius:2px;overflow:hidden;background:var(--panel);border:1px solid var(--line);box-shadow:var(--shadow)}
+.exp__img{height:140px;display:flex;align-items:flex-end;padding:16px;position:relative;background:var(--panel2)}
+.exp__img::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(23,23,23,.35),transparent)}
+.exp__img span{position:relative;z-index:1;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#fff;font-weight:600}
+.exp__body{padding:18px}
+.exp__body h4{margin:0 0 6px;font-size:16px;font-family:"Source Serif 4",Georgia,serif}
+.exp__body p{margin:0 0 12px;font-size:13px;color:var(--muted)}
+.exp__body .price{font-size:14px;font-weight:600;color:var(--accent)}
+.img--forest{background:#2E4A3E}
+.img--trek{background:#3A4F5C}
+.img--yoga{background:#4A4458}
+.img--gold{background:#5C4A32}
+.img--craft{background:#4A4740}
+.img--family{background:#245A52}
+
+.browser{border-radius:2px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);margin-top:24px}
+.browser__bar{background:var(--panel2);padding:10px 14px;display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--line)}
+.browser__dots{display:flex;gap:5px}
+.browser__dots i{width:10px;height:10px;border-radius:50%;background:#C4C3BD;display:block}
+.browser__dots i:nth-child(1){background:#C4C3BD}
+.browser__dots i:nth-child(2){background:#A8A8A8}
+.browser__dots i:nth-child(3){background:#686868}
+.browser__url{flex:1;background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:5px 12px;font-size:12px;color:var(--muted);font-family:monospace}
+.browser__body{padding:24px;background:var(--panel)}
+
+.widget-demo{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-top:24px}
+.site-mock{background:#fff;color:#222;border-radius:2px;padding:16px;font-size:13px;border:1px solid var(--line)}
+.site-mock .logo{font-weight:700;font-size:15px;margin-bottom:8px;color:#333}
+.site-mock .url{font-size:11px;color:#888;margin-bottom:12px;font-family:monospace}
+.embed{border:2px dashed var(--accent);border-radius:2px;padding:12px;background:rgba(36,90,82,.06);font-size:12px;color:var(--accent)}
+
+.recipients{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.recipients span{font-size:13px;padding:8px 16px;border-radius:2px;background:rgba(36,90,82,.08);color:var(--accent);border:1px solid rgba(36,90,82,.2)}
+
+.timeline{display:grid;gap:14px;margin-top:24px}
+.tl-item{display:grid;grid-template-columns:100px 1fr;gap:16px;align-items:start}
+.tl-item .when{font-size:13px;font-weight:600;color:var(--accent)}
+.tl-item p{margin:0;font-size:14px;color:var(--muted)}
+
+.cta{text-align:center;padding:80px 28px;background:var(--panel2);border-top:1px solid var(--line)}
+.cta h2{margin-bottom:12px}
+.btn{display:inline-block;margin:8px;padding:14px 28px;border-radius:2px;font-weight:600;font-size:14px;text-decoration:none;transition:opacity .2s,background .2s}
+.btn--primary{background:var(--accent);color:#fff}
+.btn--ghost{border:1px solid var(--line);color:var(--text);background:var(--panel)}
+.btn:hover{opacity:.92;text-decoration:none}
+.footer-note{text-align:center;padding:32px;font-size:12px;color:var(--muted);letter-spacing:1px}
+.demo-badge{font-size:10px;letter-spacing:1px;text-transform:uppercase;background:rgba(36,90,82,.1);color:var(--accent);padding:2px 8px;border-radius:2px;margin-left:6px;vertical-align:middle}
+@media(max-width:640px){.tl-item{grid-template-columns:1fr}}
+</style>
+</head>
+<body data-page="portfolio.html" data-root="../../../">
+
+<div id="site-header"></div>
+
+<main>
+
+<section class="hero slide">
+  <span class="kicker">LEM s.r.l. · Digital &amp; IA</span>
+  <h1>Hub Prenotazione Turistica</h1>
+  <p class="subtitle">Modello di servizio per destinazioni con offerta multi-operatore: un unico front-end di prenotazione, integrabile ovunque via widget. Contenuti demo con nomi di fantasia.</p>
+  <div class="pills">
+    <span class="pill">Località turistiche</span>
+    <span class="pill">Parchi e borghi</span>
+    <span class="pill">Musei e cultura</span>
+    <span class="pill">Centri commerciali</span>
+    <span class="pill">Consorzi DMO</span>
+  </div>
+</section>
+
+<section class="slide">
+  <span class="slide-tag">Premessa</span>
+  <h2>Web app avanzate per <em style="color:var(--accent);font-style:normal">esperienze sul territorio</em></h2>
+  <p class="lead">LEM s.r.l. progetta e realizza applicazioni web per località turistiche, musei, centri commerciali e location eventi — con funzionalità pensate per SEO, GEO e visibilità nelle ricerche assistite da IA.</p>
+  <div class="grid-3">
+    <div class="card"><div class="ic">📍</div><h3>Georeferenziazione</h3><p>Percorsi GPS, check-in automatici, mappe interattive, navigazione esterna.</p></div>
+    <div class="card"><div class="ic">🥽</div><h3>Realtà aumentata</h3><p>Overlay digitali su luoghi reali, schede AR e contenuti immersivi.</p></div>
+    <div class="card"><div class="ic">📸</div><h3>Selfie brandizzati</h3><p>Foto ricordo composte client-side con cornice editoriale e logo del brand.</p></div>
+    <div class="card"><div class="ic">🎧</div><h3>Podcast e audio guide</h3><p>Contenuti multimediali per ogni tappa del percorso.</p></div>
+    <div class="card"><div class="ic">🎬</div><h3>Video con IA</h3><p>Produzione e localizzazione contenuti video assistita da intelligenza artificiale.</p></div>
+    <div class="card"><div class="ic">🤖</div><h3>Assistenti IA</h3><p>Chatbot informativi, FAQ dinamiche, supporto multilingua al visitatore.</p></div>
+  </div>
+</section>
+
+<section class="slide">
+  <span class="slide-tag">01 · Il modello booking</span>
+  <h2>Un catalogo, <em style="color:var(--accent2);font-style:normal">tutti gli operatori</em></h2>
+  <p class="lead">Destinazioni turistiche spesso hanno offerta frammentata: funivie, musei, guide, hotel, ristorazione. L'hub unifica la prenotazione in un unico checkout, con bundle e widget embeddabili sui siti partner.</p>
+  <div class="grid-2">
+    <div class="card"><h3>Landing unificata</h3><p>Catalogo esperienze filtrabile per data, tipologia, target (famiglie, sport, cultura).</p></div>
+    <div class="card"><h3>Multi-esperienza</h3><p>Funivia + museo + pranzo in rifugio in un solo flusso di prenotazione.</p></div>
+    <div class="card"><h3>Bundle intelligenti</h3><p>Pacchetti week-end, family, avventura con sconti combinati.</p></div>
+    <div class="card"><h3>Widget HTML</h3><p>Integrazione su hotel, portali turistici e siti operatori senza duplicare contenuti.</p></div>
+  </div>
+</section>
+
+<section class="slide">
+  <span class="slide-tag">02 · Anteprima catalogo <span class="demo-badge">demo</span></span>
+  <h2>Esperienze · <em style="font-style:italic;color:var(--muted">Destinazione Valle Aurora</em></h2>
+  <div class="experience-grid">
+    <article class="exp">
+      <div class="exp__img img--forest"><span>Natura · Benessere</span></div>
+      <div class="exp__body"><h4>Bagno di Bosco · Vallata Verde</h4><p>Percorso sensoriale guidato tra sentieri ombreggiati e radure panoramiche.</p><span class="price">da € 35 / persona</span></div>
+    </article>
+    <article class="exp">
+      <div class="exp__img img--trek"><span>Outdoor · Salute</span></div>
+      <div class="exp__body"><h4>Trekking Benessere · Sentiero Aurora</h4><p>Itinerario medio con soste mindful e briefing su flora e fauna locale.</p><span class="price">da € 28 / persona</span></div>
+    </article>
+    <article class="exp">
+      <div class="exp__img img--yoga"><span>Benessere · Altitudine</span></div>
+      <div class="exp__body"><h4>Yoga al Tramonto · Prato dei Nuvoloni</h4><p>Sessione all'aperto con istruttrice certificata e tisana di benvenuto.</p><span class="price">da € 42 / persona</span></div>
+    </article>
+    <article class="exp">
+      <div class="exp__img img--gold"><span>Cultura · Storia</span></div>
+      <div class="exp__body"><h4>Oro e Leggende · Rifugio Antico</h4><p>Visita narrativa ai luoghi della memoria con degustazione prodotti tipici.</p><span class="price">da € 38 / persona</span></div>
+    </article>
+    <article class="exp">
+      <div class="exp__img img--craft"><span>Artigianato · Tradizioni</span></div>
+      <div class="exp__body"><h4>Mestieri d'Altrove · Casa del Borgo</h4><p>Laboratorio interattivo su tecniche artigiane e vita di un tempo.</p><span class="price">da € 25 / persona</span></div>
+    </article>
+    <article class="exp">
+      <div class="exp__img img--family"><span>Famiglie · Avventura</span></div>
+      <div class="exp__body"><h4>Avventure · Bosco dei Segreti</h4><p>Percorso narrativo per bambini con enigmi, mappe e personaggi fantasy.</p><span class="price">da € 18 / bambino</span></div>
+    </article>
+  </div>
+</section>
+
+<section class="slide">
+  <span class="slide-tag">03 · Flusso utente</span>
+  <h2>Dalla scoperta al <em style="color:var(--green);font-style:normal">pagamento</em></h2>
+  <p class="lead">Quattro step tipici del funnel di prenotazione, replicabili per qualsiasi destinazione.</p>
+  <div class="grid-3">
+    <div class="card"><h3>1 · Scelta</h3><p>Esperienza, data e partecipanti. Calendario disponibilità in tempo reale.</p></div>
+    <div class="card"><h3>2 · Dettaglio</h3><p>Scheda ricca: foto, descrizione, durata, difficoltà, cosa include, mappa.</p></div>
+    <div class="card"><h3>3 · Checkout</h3><p>Dati visitatore, opzioni extra, codice sconto, riepilogo trasparente.</p></div>
+    <div class="card"><h3>4 · Conferma</h3><p>Email automatica, voucher QR, promemoria e upsell esperienze correlate.</p></div>
+  </div>
+  <div class="browser">
+    <div class="browser__bar"><div class="browser__dots"><i></i><i></i><i></i></div><div class="browser__url">booking.valle-aurora.demo / bagno-di-bosco</div></div>
+    <div class="browser__body">
+      <h3 style="margin:0 0 8px">Bagno di Bosco · Vallata Verde</h3>
+      <p style="color:var(--muted);margin:0 0 16px;font-size:14px">Durata 3 h · Difficoltà facile · Max 12 partecipanti · Guida certificata</p>
+      <p style="font-size:14px;margin:0">Mockup strutturale: hero, galleria, calendario, form prenotazione e pagamento integrato.</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide">
+  <span class="slide-tag">04 · Widget embed</span>
+  <h2>Presente sui siti <em style="color:var(--accent);font-style:normal">dei partner</em></h2>
+  <p class="lead">Il catalogo vive anche fuori dal portale ufficiale: hotel, portali turistici e operatori mostrano le stesse esperienze aggiornate in tempo reale.</p>
+  <div class="widget-demo">
+    <div class="site-mock">
+      <div class="logo">Hotel Valle Aurora <span class="demo-badge">demo</span></div>
+      <div class="url">www.hotel-valle-aurora.demo / prenota</div>
+      <div class="embed">Widget catalogo esperienze · 3 card in evidenza · CTA Prenota</div>
+    </div>
+    <div class="site-mock">
+      <div class="logo">Visit Valle Aurora <span class="demo-badge">demo</span></div>
+      <div class="url">www.visit-valle-aurora.demo / attivita</div>
+      <div class="embed">Widget full-width · filtri per categoria · calendario</div>
+    </div>
+    <div class="site-mock">
+      <div class="logo">Rifugio Bosco Antico <span class="demo-badge">demo</span></div>
+      <div class="url">www.rifugio-bosco.demo / esperienze</div>
+      <div class="embed">Widget compatto · singola esperienza in evidenza</div>
+    </div>
+  </div>
+</section>
+
+<section class="slide">
+  <span class="slide-tag">05 · Percorsi georeferenziati</span>
+  <h2>Modello <em style="color:var(--green);font-style:normal">Self-guided tour</em></h2>
+  <p class="lead">Oltre al booking, LEM realizza web app per self-guided tour: percorsi outdoor con GPS check-in, POI multimediali, analytics anonimo o tracciabile con report statistici. Modello replicabile per parchi, città, centri storici e aree commerciali.</p>
+  <div class="grid-2">
+    <div class="card">
+      <h3>Self-guided tour</h3>
+      <p>Percorsi georeferenziati attorno a un centro commerciale e al territorio circostante. Mappa Leaflet, tracciati GPX, check-in automatici, multilingua IT/EN/DE, PWA installabile. Analytics anonimo o tracciabile con report statistici.</p>
+      <p style="margin-top:12px"><a href="/progetti/self-guided-tour/index.html">Scheda progetto →</a></p>
+    </div>
+    <div class="card">
+      <h3>Destinatari ideali</h3>
+      <p>Parchi naturali, borghi storici, destinazioni turistiche, cammini, musei all'aperto, festival, centri commerciali che vogliono attrarre famiglie nel territorio.</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide">
+  <span class="slide-tag">06 · Destinatari &amp; SEO/GEO</span>
+  <h2>Per chi è pensato <em style="font-style:normal;color:var(--accent2)"> questo servizio</em></h2>
+  <p class="lead">Contenuti e struttura ottimizzati per essere trovati da motori di ricerca tradizionali e da assistenti IA (ChatGPT, Gemini, Perplexity).</p>
+  <div class="recipients">
+    <span>Destinazioni montane e lacustri</span>
+    <span>Parchi tematici</span>
+    <span>Musei e fondazioni</span>
+    <span>Borghi e città d'arte</span>
+    <span>Centri commerciali</span>
+    <span>Consorzi turistici</span>
+    <span>Enti locali · DMO</span>
+    <span>Operatori outdoor</span>
+    <span>Strutture ricettive</span>
+  </div>
+  <div class="timeline" style="margin-top:32px">
+    <div class="tl-item"><span class="when">Fase 1</span><p>Analisi offerta, benchmark, architettura informativa e wireframe.</p></div>
+    <div class="tl-item"><span class="when">Fase 2</span><p>Configurazione catalogo, bundle, widget e integrazioni pagamento.</p></div>
+    <div class="tl-item"><span class="when">Fase 3</span><p>Go-live, formazione operatori, piano comunicazione e KPI.</p></div>
+  </div>
+</section>
+
+<section class="cta slide">
+  <span class="slide-tag">LEM s.r.l.</span>
+  <h2>Ideiamo la piattaforma per la <em style="font-style:normal;color:var(--accent)">tua destinazione</em></h2>
+  <p class="lead" style="margin:0 auto 28px">Presentazioni interattive, prototipi funzionanti e applicazioni web su misura.</p>
+  <a class="btn btn--primary" href="mailto:lemcomunicazione@gmail.com">lemcomunicazione@gmail.com</a>
+  <a class="btn btn--ghost" href="../../../contatti.html">Contattaci</a>
+</section>
+
+</main>
+
+<p class="footer-note">LEM s.r.l. · Eventi e Comunicazione · Ornavasso (Verbania) · Contenuti demo con nomi di fantasia</p>
+
+<div id="site-footer"></div>
+<script src="../../../js/includes.js"></script>
+
+</body>
+</html>

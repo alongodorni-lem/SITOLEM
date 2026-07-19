@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 640" role="img" aria-labelledby="mapTitle mapDesc">
+  <title id="mapTitle">Mappa posti interattiva - schema</title>
+  <desc id="mapDesc">Schema di mappa ombrelloni / posti a sedere con stati libero, selezionato, occupato.</desc>
+
+  <rect width="1100" height="640" fill="#F5F4F0"/>
+  <rect x="24" y="24" width="1052" height="592" rx="4" fill="#FFFFFF" stroke="#D9D8D3"/>
+
+  <text x="48" y="64" fill="#171717" font-family="Georgia, serif" font-size="20" font-weight="600">Mappa posti - ombrelloni / platea</text>
+  <text x="48" y="88" fill="#686868" font-family="sans-serif" font-size="13">Selezione visuale su griglia: libero, selezionato, occupato. Adattabile a spiagge, sagre, ristoranti, eventi live.</text>
+
+  <circle cx="60" cy="120" r="8" fill="#245A52" opacity=".25" stroke="#245A52"/>
+  <text x="78" y="124" fill="#686868" font-size="12" font-family="sans-serif">Libero</text>
+  <circle cx="160" cy="120" r="8" fill="#245A52"/>
+  <text x="178" y="124" fill="#686868" font-size="12" font-family="sans-serif">Selezionato</text>
+  <circle cx="290" cy="120" r="8" fill="#C4C3BD"/>
+  <text x="308" y="124" fill="#686868" font-size="12" font-family="sans-serif">Occupato</text>
+  <circle cx="410" cy="120" r="8" fill="none" stroke="#A65D2E" stroke-width="2"/>
+  <text x="428" y="124" fill="#686868" font-size="12" font-family="sans-serif">Bloccato</text>
+
+  <rect x="48" y="148" width="700" height="36" rx="2" fill="#245A52" opacity=".12"/>
+  <text x="398" y="171" text-anchor="middle" fill="#245A52" font-size="12" font-family="sans-serif" font-weight="600" letter-spacing="2">LINEA ACQUA / PALCO / CORSIA</text>
+
+  <g id="grid">
+    <g transform="translate(80,220)">
+      <circle cx="0" cy="0" r="22" fill="#245A52" opacity=".2" stroke="#245A52"/><text x="0" y="4" text-anchor="middle" font-size="10" fill="#245A52" font-family="sans-serif">A1</text>
+      <circle cx="70" cy="0" r="22" fill="#C4C3BD"/><text x="70" y="4" text-anchor="middle" font-size="10" fill="#FFFFFF" font-family="sans-serif">A2</text>
+      <circle cx="140" cy="0" r="22" fill="#245A52"/><text x="140" y="4" text-anchor="middle" font-size="10" fill="#FFFFFF" font-family="sans-serif">A3</text>
+      <circle cx="210" cy="0" r="22" fill="#245A52" opacity=".2" stroke="#245A52"/><text x="210" y="4" text-anchor="middle" font-size="10" fill="#245A52" font-family="sans-serif">A4</text>
+      <circle cx="280" cy="0" r="22" fill="#245A52" opacity=".2" stroke="#245A52"/><text x="280" y="4" text-anchor="middle" font-size="10" fill="#245A52" font-family="sans-serif">A5</text>
+      <circle cx="350" cy="0" r="22" fill="#C4C3BD"/><text x="350" y="4" text-anchor="middle" font-size="10" fill="#FFFFFF" font-family="sans-serif">A6</text>
+      <circle cx="420" cy="0" r="22" fill="none" stroke="#A65D2E" stroke-width="2"/><text x="420" y="4" text-anchor="middle" font-size="10" fill="#A65D2E" font-family="sans-serif">A7</text>
+      <circle cx="490" cy="0" r="22" fill="#245A52" opacity=".2" stroke="#245A52"/><text x="490" y="4" text-anchor="middle" font-size="10" fill="#245A52" font-family="sans-serif">A8</text>
+      <circle cx="560" cy="0" r="22" fill="#245A52"/><text x="560" y="4" text-anchor="middle" font-size="10" fill="#FFFFFF" font-family="sans-serif">A9</text>
+    </g>
+    <g transform="translate(80,300)">
+      <circle cx="0" cy="0" r="22" fill="#C4C3BD"/><text x="0" y="4" text-anchor="middle" font-size="10" fill="#FFFFFF" font-family="sans-serif">B1</text>
+      <circle cx="70" cy="0" r="22" fill="#245A52" opacity=".2" stroke="#245A52"/><text x="70" y="4" text-anchor="middle" font-size="10" fill="#245A52" font-family="sans-serif">B2</text>
+      <circle cx="140" cy="0" r="22" fill="#245A52" opacity=".2" stroke="#245A52"/><text x="140" y="4" text-anchor="middle" font-size="10" fill="#245A52" font-family="sans-serif">B3</text>
+      <circle cx="210" cy="0" r="22" fill="#245A52"/><text x="210" y="4" text-anchor="middle" font-size="10" fill="#FFFFFF" font-family="sans-serif">B4</text>
+      <circle cx="280" cy="0" r="22" fill="#C4C3BD"/><text x="280" y="4" text-anchor="middle" font-size="10" fill="#FFFFFF" font-family="sans-serif">B5</text>
+      <circle cx="350" cy="0" r="22" fill="#245A52" opacity=".2" stroke="#245A52"/><text x="350" y="4" text-anchor="middle" font-size="10" fill="#245A52" font-family="sans-serif">B6</text>
+      <circle cx="420" cy="0" r="22" fill="#245A52" opacity=".2" stroke="#245A52"/><text x="420" y="4" text-anchor="middle" font-size="10" fill="#245A52" font-family="sans-serif">B7</text>
+      <circle cx="490" cy="0" r="22" fill="#C4C3BD"/><text x="490" y="4" text-anchor="middle" font-size="10" fill="#FFFFFF" font-family="sans-serif">B8</text>
+      <circle cx="560" cy="0" r="22" fill="#245A52" opacity=".2" stroke="#245A52"/><text x="560" y="4" text-anchor="middle" font-size="10" fill="#245A52" font-family="sans-serif">B9</text>
+    </g>
+    <g transform="translate(80,380)">
+      <circle cx="0" cy="0" r="22" fill="#245A52" opacity=".2" stroke="#245A52"/><text x="0" y="4" text-anchor="middle" font-size="10" fill="#245A52" font-family="sans-serif">C1</text>
+      <circle cx="70" cy="0" r="22" fill="#245A52" opacity=".2" stroke="#245A52"/><text x="70" y="4" text-anchor="middle" font-size="10" fill="#245A52" font-family="sans-serif">C2</text>
+      <circle cx="140" cy="0" r="22" fill="#C4C3BD"/><text x="140" y="4" text-anchor="middle" font-size="10" fill="#FFFFFF" font-family="sans-serif">C3</text>
+      <circle cx="210" cy="0" r="22" fill="#245A52" opacity=".2" stroke="#245A52"/><text x="210" y="4" text-anchor="middle" font-size="10" fill="#245A52" font-family="sans-serif">C4</text>
+      <circle cx="280" cy="0" r="22" fill="#245A52"/><text x="280" y="4" text-anchor="middle" font-size="10" fill="#FFFFFF" font-family="sans-serif">C5</text>
+      <circle cx="350" cy="0" r="22" fill="#245A52" opacity=".2" stroke="#245A52"/><text x="350" y="4" text-anchor="middle" font-size="10" fill="#245A52" font-family="sans-serif">C6</text>
+      <circle cx="420" cy="0" r="22" fill="#C4C3BD"/><text x="420" y="4" text-anchor="middle" font-size="10" fill="#FFFFFF" font-family="sans-serif">C7</text>
+      <circle cx="490" cy="0" r="22" fill="#245A52" opacity=".2" stroke="#245A52"/><text x="490" y="4" text-anchor="middle" font-size="10" fill="#245A52" font-family="sans-serif">C8</text>
+      <circle cx="560" cy="0" r="22" fill="none" stroke="#A65D2E" stroke-width="2"/><text x="560" y="4" text-anchor="middle" font-size="10" fill="#A65D2E" font-family="sans-serif">C9</text>
+    </g>
+  </g>
+
+  <rect x="780" y="148" width="272" height="420" rx="3" fill="#F5F4F0" stroke="#245A52" stroke-width="2"/>
+  <text x="800" y="180" fill="#245A52" font-size="11" font-family="sans-serif" font-weight="700" letter-spacing="1">RIEPILOGO SELEZIONE</text>
+  <text x="800" y="214" fill="#171717" font-family="Georgia, serif" font-size="18" font-weight="600">3 posti</text>
+  <text x="800" y="240" fill="#686868" font-size="13" font-family="sans-serif">A3 - A9 - B4</text>
+  <rect x="800" y="268" width="232" height="1" fill="#D9D8D3"/>
+  <text x="800" y="300" fill="#171717" font-size="13" font-family="sans-serif">Fascia oraria</text>
+  <text x="800" y="322" fill="#686868" font-size="13" font-family="sans-serif">09:00 - 13:00</text>
+  <text x="800" y="358" fill="#171717" font-size="13" font-family="sans-serif">Totale indicativo</text>
+  <text x="800" y="386" fill="#245A52" font-family="Georgia, serif" font-size="22" font-weight="600">EUR ***</text>
+  <rect x="800" y="420" width="232" height="44" rx="2" fill="#245A52"/>
+  <text x="916" y="447" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif" font-weight="700">Conferma posti</text>
+  <text x="800" y="500" fill="#686868" font-size="12" font-family="sans-serif">Stessa logica per:</text>
+  <text x="800" y="524" fill="#171717" font-size="12" font-family="sans-serif">- Ombrelloni spiaggia / piscina</text>
+  <text x="800" y="544" fill="#171717" font-size="12" font-family="sans-serif">- Tavoli sagra / ristorante</text>
+  <text x="800" y="564" fill="#171717" font-size="12" font-family="sans-serif">- Posti platea / eventi live</text>
+
+  <text x="48" y="580" fill="#245A52" font-size="11" font-family="Georgia, serif">LEM - schema mappa posti</text>
+</svg>

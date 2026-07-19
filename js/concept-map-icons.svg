@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="map-icon-analisi" viewBox="0 0 40 40">
+    <circle cx="20" cy="20" r="19" fill="#fff" stroke="#245A52" stroke-width="1"/>
+    <rect x="11" y="24" width="3" height="6" fill="#245A52"/>
+    <rect x="16" y="21" width="3" height="9" fill="#245A52"/>
+    <rect x="21" y="18" width="3" height="12" fill="#245A52"/>
+    <circle cx="27" cy="15" r="5" fill="none" stroke="#245A52" stroke-width="1.4"/>
+    <line x1="30.5" y1="18.5" x2="33" y2="21" stroke="#245A52" stroke-width="1.4" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="map-icon-ideazione" viewBox="0 0 40 40">
+    <circle cx="20" cy="20" r="19" fill="#fff" stroke="#245A52" stroke-width="1"/>
+    <path d="M20 11c-3.3 0-6 2.4-6 5.4 0 2.1 1.2 3.9 3 4.8V24h6v-2.8c1.8-.9 3-2.7 3-4.8 0-3-2.7-5.4-6-5.4z" fill="none" stroke="#245A52" stroke-width="1.4" stroke-linejoin="round"/>
+    <path d="M17 26h6" stroke="#245A52" stroke-width="1.4" stroke-linecap="round"/>
+    <path d="M18 29h4" stroke="#245A52" stroke-width="1.4" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="map-icon-marketing" viewBox="0 0 40 40">
+    <circle cx="20" cy="20" r="19" fill="#fff" stroke="#245A52" stroke-width="1"/>
+    <path d="M14 17h8l6-3v14l-6-3h-8V17z" fill="none" stroke="#245A52" stroke-width="1.4" stroke-linejoin="round"/>
+    <path d="M14 20v4" stroke="#245A52" stroke-width="1.4" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="map-icon-logistica" viewBox="0 0 40 40">
+    <circle cx="20" cy="20" r="19" fill="#fff" stroke="#245A52" stroke-width="1"/>
+    <rect x="11" y="18" width="12" height="8" rx="1" fill="none" stroke="#245A52" stroke-width="1.4"/>
+    <path d="M23 20h5l3 3v3h-8v-6z" fill="none" stroke="#245A52" stroke-width="1.4" stroke-linejoin="round"/>
+    <circle cx="15" cy="27" r="2" fill="none" stroke="#245A52" stroke-width="1.3"/>
+    <circle cx="27" cy="27" r="2" fill="none" stroke="#245A52" stroke-width="1.3"/>
+  </symbol>
+  <symbol id="map-icon-spettacoli" viewBox="0 0 40 40">
+    <circle cx="20" cy="20" r="19" fill="#fff" stroke="#245A52" stroke-width="1"/>
+    <circle cx="15" cy="18" r="2.5" fill="none" stroke="#245A52" stroke-width="1.3"/>
+    <circle cx="25" cy="18" r="2.5" fill="none" stroke="#245A52" stroke-width="1.3"/>
+    <path d="M12 26l3-6 5 3 5-3 3 6" fill="none" stroke="#245A52" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+  <symbol id="map-icon-attrezzature" viewBox="0 0 40 40">
+    <circle cx="20" cy="20" r="19" fill="#fff" stroke="#245A52" stroke-width="1"/>
+    <rect x="11" y="10" width="18" height="8" rx="0.8" stroke="#245A52" stroke-width="1"/>
+    <path d="M9 18h22" stroke="#245A52" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M9 18v2M31 18v2" stroke="#245A52" stroke-width="1" stroke-linecap="round"/>
+    <path d="M9 20h22" stroke="#245A52" stroke-width="1" stroke-linecap="round"/>
+    <g stroke="#245A52" stroke-width="0.95" fill="none" stroke-linejoin="round" stroke-linecap="round">
+      <rect x="11.5" y="23.5" width="3.5" height="1.8" rx="0.4"/>
+      <path d="M11.5 23.5V22h3.5"/>
+      <line x1="12.5" y1="25.3" x2="12.5" y2="27.5"/>
+      <line x1="14" y1="25.3" x2="14" y2="27.5"/>
+      <rect x="18.25" y="23.5" width="3.5" height="1.8" rx="0.4"/>
+      <path d="M18.25 23.5V22h3.5"/>
+      <line x1="19.25" y1="25.3" x2="19.25" y2="27.5"/>
+      <line x1="20.75" y1="25.3" x2="20.75" y2="27.5"/>
+      <rect x="25" y="23.5" width="3.5" height="1.8" rx="0.4"/>
+      <path d="M25 23.5V22h3.5"/>
+      <line x1="26" y1="25.3" x2="26" y2="27.5"/>
+      <line x1="27.5" y1="25.3" x2="27.5" y2="27.5"/>
+    </g>
+  </symbol>
+  <symbol id="map-icon-gestione" viewBox="0 0 40 40">
+    <circle cx="20" cy="20" r="19" fill="#fff" stroke="#245A52" stroke-width="1"/>
+    <circle cx="20" cy="20" r="5" fill="none" stroke="#245A52" stroke-width="1.3"/>
+    <circle cx="20" cy="12" r="2.5" fill="none" stroke="#245A52" stroke-width="1.3"/>
+    <circle cx="27" cy="24" r="2.5" fill="none" stroke="#245A52" stroke-width="1.3"/>
+    <circle cx="13" cy="24" r="2.5" fill="none" stroke="#245A52" stroke-width="1.3"/>
+  </symbol>
+  <symbol id="map-icon-sicurezza" viewBox="0 0 40 40">
+    <circle cx="20" cy="20" r="19" fill="#fff" stroke="#245A52" stroke-width="1"/>
+    <path d="M20 12l8 3v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10v-6l8-3z" fill="none" stroke="#245A52" stroke-width="1.4" stroke-linejoin="round"/>
+    <path d="M17 20l2 2 4-4" fill="none" stroke="#245A52" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+  <symbol id="map-icon-ar" viewBox="0 0 40 40">
+    <circle cx="20" cy="20" r="19" fill="#fff" stroke="#245A52" stroke-width="1"/>
+    <path d="M13 18h14a2 2 0 012 2v6a2 2 0 01-2 2H13a2 2 0 01-2-2v-6a2 2 0 012-2z" fill="none" stroke="#245A52" stroke-width="1.4"/>
+    <path d="M16 18v-2a4 4 0 018 0v2" fill="none" stroke="#245A52" stroke-width="1.4"/>
+    <circle cx="26" cy="23" r="1.5" fill="#245A52"/>
+  </symbol>
+  <symbol id="map-icon-comunicazione" viewBox="0 0 40 40">
+    <circle cx="20" cy="20" r="19" fill="#fff" stroke="#245A52" stroke-width="1"/>
+    <path d="M13 16h10a2 2 0 012 2v5a2 2 0 01-2 2h-2l-3 3v-3h-7a2 2 0 01-2-2v-5a2 2 0 012-2z" fill="none" stroke="#245A52" stroke-width="1.3" stroke-linejoin="round"/>
+    <path d="M22 17h5a2 2 0 012 2v4a2 2 0 01-2 2h-1" fill="none" stroke="#245A52" stroke-width="1.3"/>
+  </symbol>
+  <symbol id="map-icon-ecosistema" viewBox="0 0 40 40">
+    <circle cx="20" cy="20" r="19" fill="#fff" stroke="#245A52" stroke-width="1"/>
+    <circle cx="20" cy="20" r="8" fill="none" stroke="#245A52" stroke-width="1.3"/>
+    <ellipse cx="20" cy="20" rx="8" ry="3.5" fill="none" stroke="#245A52" stroke-width="1.1"/>
+    <ellipse cx="20" cy="20" rx="3.5" ry="8" fill="none" stroke="#245A52" stroke-width="1.1"/>
+  </symbol>
+  <symbol id="map-icon-ottimizzazione" viewBox="0 0 40 40">
+    <circle cx="20" cy="20" r="19" fill="#fff" stroke="#245A52" stroke-width="1"/>
+    <rect x="15" y="12" width="10" height="16" rx="2" fill="none" stroke="#245A52" stroke-width="1.4"/>
+    <circle cx="20" cy="25" r="1.2" fill="#245A52"/>
+    <path d="M24 15l3-2v6l-3-2" fill="none" stroke="#245A52" stroke-width="1.3" stroke-linejoin="round"/>
+  </symbol>
+  <symbol id="map-icon-ia" viewBox="0 0 40 40">
+    <circle cx="20" cy="20" r="19" fill="#fff" stroke="#245A52" stroke-width="1"/>
+    <g stroke="#245A52" stroke-width="1" fill="none" stroke-linecap="round">
+      <line x1="20" y1="13.9" x2="20" y2="8.1"/>
+      <line x1="23.6" y1="16.1" x2="27.9" y2="11.8"/>
+      <line x1="26.1" y1="20" x2="31.9" y2="20"/>
+      <line x1="23.6" y1="23.9" x2="27.9" y2="28.2"/>
+      <line x1="20" y1="26.1" x2="20" y2="31.9"/>
+      <line x1="16.4" y1="23.9" x2="12.1" y2="28.2"/>
+      <line x1="13.9" y1="20" x2="8.1" y2="20"/>
+      <line x1="16.4" y1="16.1" x2="12.1" y2="11.8"/>
+      <circle cx="20" cy="15" r="1.1"/>
+      <circle cx="23.5" cy="16.5" r="1.1"/>
+      <circle cx="25" cy="20" r="1.1"/>
+      <circle cx="23.5" cy="23.5" r="1.1"/>
+      <circle cx="20" cy="25" r="1.1"/>
+      <circle cx="16.5" cy="23.5" r="1.1"/>
+      <circle cx="15" cy="20" r="1.1"/>
+      <circle cx="16.5" cy="16.5" r="1.1"/>
+      <circle cx="20" cy="5.7" r="2.3"/>
+      <circle cx="30.1" cy="9.9" r="2.3"/>
+      <circle cx="34.3" cy="20" r="2.3"/>
+      <circle cx="30.1" cy="30.1" r="2.3"/>
+      <circle cx="20" cy="34.3" r="2.3"/>
+      <circle cx="9.9" cy="30.1" r="2.3"/>
+      <circle cx="5.7" cy="20" r="2.3"/>
+      <circle cx="9.9" cy="9.9" r="2.3"/>
+    </g>
+    <path fill="#245A52" d="M20 15.6l.85 3 3 .85-3 .85-.85 3-.85-3-3-.85 3-.85.85-3z"/>
+  </symbol>
+  <symbol id="map-icon-prenotazione" viewBox="0 0 40 40">
+    <circle cx="20" cy="20" r="19" fill="#fff" stroke="#245A52" stroke-width="1"/>
+    <rect x="13" y="14" width="14" height="13" rx="1.5" fill="none" stroke="#245A52" stroke-width="1.4"/>
+    <path d="M13 18h14M17 12v3M23 12v3" stroke="#245A52" stroke-width="1.3" stroke-linecap="round"/>
+    <path d="M18 23l2 2 4-4" fill="none" stroke="#245A52" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+  <symbol id="map-icon-report" viewBox="0 0 40 40">
+    <circle cx="20" cy="20" r="19" fill="#fff" stroke="#245A52" stroke-width="1"/>
+    <rect x="12" y="24" width="4" height="6" fill="#245A52"/>
+    <rect x="18" y="20" width="4" height="10" fill="#245A52"/>
+    <rect x="24" y="16" width="4" height="14" fill="#245A52"/>
+    <path d="M11 30h18" stroke="#245A52" stroke-width="1.3" stroke-linecap="round"/>
+  </symbol>
+</svg>

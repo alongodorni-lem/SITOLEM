@@ -1,0 +1,828 @@
+﻿<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <title>Arte, cultura, natura nel territorio e sul tuo smartphone — Presentazione servizio LEM</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../css/styles.css" />
+    <style>
+      :root {
+        --crema: #F5F4F0;
+        --crema-scuro: #EEEDE8;
+        --ocra: #245A52;
+        --ocra-scuro: #1A433D;
+        --carbone: #171717;
+        --carbone-soft: #686868;
+        --testo: #171717;
+        --testo-muted: #686868;
+      }
+
+      * { box-sizing: border-box; }
+
+      html, body {
+        margin: 0;
+        padding: 0;
+        font-family: "DM Sans", system-ui, -apple-system, sans-serif;
+        color: var(--testo);
+        background: #EEEDE8;
+      }
+
+      .deck {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 24px 12px;
+      }
+
+      .slide {
+        width: 1280px;
+        height: 720px;
+        margin: 0 auto;
+        background: var(--crema);
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 8px 24px rgba(23, 23, 23, 0.08);
+        border-radius: 8px;
+      }
+
+      /* Cornice dorata */
+      .slide::before {
+        content: "";
+        position: absolute;
+        inset: 24px;
+        border: 1px solid var(--ocra);
+        pointer-events: none;
+        z-index: 0;
+      }
+
+      .slide__header {
+        position: absolute;
+        top: 40px;
+        left: 56px;
+        right: 56px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 3;
+      }
+
+      .brand {
+        font-family: "Source Serif 4", Georgia, serif;
+        font-size: 15px;
+        letter-spacing: 4px;
+        color: var(--ocra-scuro);
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+
+      .page-num {
+        font-family: "Cormorant Garamond", Georgia, serif;
+        color: var(--ocra-scuro);
+        font-size: 14px;
+        letter-spacing: 3px;
+      }
+
+      .slide__body {
+        position: absolute;
+        top: 90px;
+        left: 56px;
+        right: 56px;
+        bottom: 56px;
+        z-index: 2;
+      }
+
+      h1.title {
+        font-family: "Cormorant Garamond", Georgia, serif;
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 1.02;
+        margin: 0 0 6px 0;
+        color: var(--carbone);
+      }
+
+      h1.title em {
+        font-style: italic;
+        color: var(--ocra-scuro);
+      }
+
+      .subtitle {
+        font-family: "Cormorant Garamond", Georgia, serif;
+        font-style: italic;
+        font-size: 22px;
+        color: var(--testo-muted);
+        margin: 0 0 20px 0;
+      }
+
+      h2.step {
+        font-family: "Cormorant Garamond", Georgia, serif;
+        font-weight: 500;
+        font-size: 42px;
+        line-height: 1.05;
+        margin: 0 0 8px 0;
+        color: var(--carbone);
+      }
+
+      h2.step em {
+        font-style: italic;
+        color: var(--ocra-scuro);
+      }
+
+      p.lead {
+        font-size: 17px;
+        line-height: 1.55;
+        color: var(--testo);
+        margin: 0 0 12px 0;
+        max-width: 560px;
+      }
+
+      .rule {
+        width: 60px;
+        height: 2px;
+        background: var(--ocra);
+        margin: 18px 0;
+      }
+
+      /* ============= SLIDE 1 ============= */
+      .s1 {
+        display: grid;
+        grid-template-columns: 1.15fr 1fr;
+        gap: 48px;
+        align-items: center;
+        height: 100%;
+      }
+      .s1 .left h1.title { font-size: 42px; line-height: 1.08; }
+      .s1 .badge,
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 14px;
+        border: 1px solid var(--ocra);
+        border-radius: 999px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        color: var(--ocra-scuro);
+        text-transform: uppercase;
+        margin-bottom: 22px;
+        font-weight: 600;
+      }
+      .s1 .highlights {
+        list-style: none;
+        padding: 0;
+        margin: 24px 0 0 0;
+      }
+      .s1 .highlights li {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 12px;
+        padding-left: 22px;
+        position: relative;
+      }
+      .s1 .highlights li::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 8px;
+        width: 12px;
+        height: 12px;
+        background: var(--ocra);
+        transform: rotate(45deg);
+      }
+      .s1 .phone {
+        width: 320px;
+        height: 640px;
+        margin: 0 auto;
+        border-radius: 40px;
+        background: #111;
+        padding: 12px;
+        box-shadow: 0 20px 50px rgba(42, 37, 29, 0.35);
+        position: relative;
+      }
+      .s1 .phone::before {
+        content: "";
+        position: absolute;
+        top: 22px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 24px;
+        background: #000;
+        border-radius: 999px;
+        z-index: 2;
+      }
+      .s1 .phone-screen,
+      .s2 .phone-screen,
+      .s3 .phone-screen {
+        width: 100%;
+        height: 100%;
+        border-radius: 28px;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        background-color: #f5ecd8;
+      }
+      .s1 .phone-screen img,
+      .s2 .phone-screen img,
+      .s3 .phone-screen img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        max-width: none;
+        max-height: none;
+        object-fit: cover;
+        object-position: top center;
+        display: block;
+        /* Anteprime reali: sfocatura leggera per anonimizzare UI/brand */
+        filter: blur(2px);
+        transform: scale(1.04);
+        transform-origin: top center;
+      }
+      .s2 .phone-screen { border-radius: 22px; }
+      .s3 .phone-screen { border-radius: 22px; }
+
+      /* ============= SLIDE 2 ============= */
+      .s2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        height: 100%;
+        align-items: center;
+      }
+      .s2 .col-text ol.steps {
+        counter-reset: step;
+        list-style: none;
+        padding: 0;
+        margin: 18px 0 0 0;
+      }
+      .s2 .col-text ol.steps li {
+        counter-increment: step;
+        display: grid;
+        grid-template-columns: 44px 1fr;
+        gap: 14px;
+        margin-bottom: 20px;
+        align-items: start;
+      }
+      .s2 .col-text ol.steps li::before {
+        content: counter(step, decimal-leading-zero);
+        font-family: "Cormorant Garamond", Georgia, serif;
+        font-size: 28px;
+        color: var(--ocra-scuro);
+        font-weight: 600;
+        line-height: 1;
+        padding-top: 4px;
+        border-right: 1px solid var(--ocra);
+        text-align: center;
+        padding-right: 10px;
+      }
+      .s2 .col-text ol.steps li strong {
+        font-family: "Cormorant Garamond", Georgia, serif;
+        font-weight: 600;
+        font-size: 20px;
+        color: var(--carbone);
+        display: block;
+        margin-bottom: 3px;
+      }
+      .s2 .col-text ol.steps li span {
+        font-size: 14px;
+        color: var(--testo-muted);
+        line-height: 1.5;
+      }
+      .s2 .phones {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+      }
+      .s2 .phone {
+        width: 240px;
+        height: 490px;
+        border-radius: 30px;
+        background: #111;
+        padding: 9px;
+        box-shadow: 0 20px 50px rgba(42, 37, 29, 0.32);
+      }
+      .s2 .phone--tilt-l { transform: rotate(-4deg); }
+      .s2 .phone--tilt-r { transform: rotate(4deg); margin-top: 40px; }
+
+      /* ============= SLIDE 3 ============= */
+      .s3 {
+        display: grid;
+        grid-template-columns: 1.05fr 1fr;
+        gap: 36px;
+        height: 100%;
+        align-items: center;
+      }
+      .s3 .col-text .callouts {
+        list-style: none;
+        padding: 0;
+        margin: 16px 0 0 0;
+      }
+      .s3 .col-text .callouts li {
+        display: grid;
+        grid-template-columns: 34px 1fr;
+        gap: 12px;
+        margin-bottom: 13px;
+        align-items: start;
+      }
+      .s3 .col-text .callouts li .n {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background: var(--ocra);
+        color: #fff;
+        font-weight: 700;
+        font-size: 14px;
+      }
+      .s3 .col-text .callouts li strong {
+        display: block;
+        font-family: "Cormorant Garamond", serif;
+        font-weight: 600;
+        font-size: 18px;
+        color: var(--carbone);
+        margin-bottom: 2px;
+      }
+      .s3 .col-text .callouts li span {
+        font-size: 13.5px;
+        color: var(--testo-muted);
+        line-height: 1.5;
+      }
+      .s3 .col-photo {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .s3 .phone {
+        width: 240px;
+        height: 519px;
+        border-radius: 28px;
+        background: #111;
+        padding: 7px;
+        box-shadow: 0 26px 60px rgba(42, 37, 29, 0.45);
+        position: relative;
+      }
+      .s3 .phone-label {
+        margin-top: 16px;
+        text-align: center;
+        color: var(--carbone);
+        font-family: "Cormorant Garamond", serif;
+        font-style: italic;
+        font-size: 14px;
+        letter-spacing: 1px;
+      }
+      .s3 .phone-label::before {
+        content: "";
+        display: inline-block;
+        width: 20px;
+        height: 1px;
+        background: var(--ocra);
+        vertical-align: middle;
+        margin-right: 10px;
+      }
+      .s3 .phone-label::after {
+        content: "";
+        display: inline-block;
+        width: 20px;
+        height: 1px;
+        background: var(--ocra);
+        vertical-align: middle;
+        margin-left: 10px;
+      }
+
+      /* ============= SLIDE 4 ============= */
+      .s4 {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+      }
+      .s4 .intro {
+        max-width: 780px;
+        margin: 0 auto 32px auto;
+        text-align: center;
+      }
+      .s4 .intro h2.step {
+        margin-bottom: 8px;
+      }
+      .s4 .intro .rule {
+        margin: 14px auto 16px auto;
+      }
+      .s4 .intro p.lead {
+        margin: 0 auto;
+        max-width: 640px;
+      }
+      .s4 .features {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 18px;
+      }
+      .s4 .feature {
+        background: rgba(255, 255, 255, 0.6);
+        border-top: 3px solid var(--ocra);
+        padding: 18px 18px 20px 18px;
+        display: flex;
+        flex-direction: column;
+      }
+      .s4 .feature .ic {
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        background: var(--ocra);
+        color: #fff;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Cormorant Garamond", serif;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+      .s4 .feature h4 {
+        font-family: "Cormorant Garamond", serif;
+        font-weight: 600;
+        font-size: 19px;
+        margin: 0 0 6px 0;
+        color: var(--carbone);
+        line-height: 1.15;
+      }
+      .s4 .feature p {
+        margin: 0;
+        font-size: 13px;
+        color: var(--testo-muted);
+        line-height: 1.5;
+      }
+
+      /* Footer credits */
+      .footer {
+        position: absolute;
+        bottom: 44px;
+        left: 56px;
+        right: 56px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 11px;
+        letter-spacing: 2px;
+        color: var(--testo-muted);
+        text-transform: uppercase;
+        z-index: 3;
+      }
+
+      /* Print / PDF */
+      @page {
+        size: 1280px 720px;
+        margin: 0;
+      }
+      @media print {
+        html, body { background: #fff; }
+        .deck { gap: 0; padding: 0; }
+        .slide {
+          box-shadow: none;
+          page-break-after: always;
+          border-radius: 0;
+          margin: 0 auto;
+        }
+        .slide:last-child { page-break-after: auto; }
+      }
+    </style>
+  </head>
+  <body data-page="portfolio.html" data-root="../../../">
+    <div id="site-header"></div>
+    <div class="deck">
+      <!-- ================= SLIDE 0 — PREMESSA ================= -->
+      <section class="slide" id="s0">
+        <div class="slide__header">
+          <span class="brand">LEM s.r.l. · Digital &amp; IA</span>
+          <span class="page-num">00 / 05</span>
+        </div>
+        <div class="slide__body">
+          <div class="s4">
+            <div class="intro">
+              <div class="badge" style="display:inline-flex;margin-bottom:18px">Premessa · servizio LEM</div>
+              <h2 class="step">Web app per <em>patrimonio, turismo e retail</em></h2>
+              <div class="rule"></div>
+              <p class="lead">
+                Realizziamo applicazioni web per località turistiche, musei, centri commerciali e location eventi.
+                Georeferenziazione, realtà aumentata, selfie brandizzati, podcast, video IA e assistenti conversazionali —
+                con struttura ottimizzata per SEO e visibilità GEO (motori di ricerca e IA generativa).
+              </p>
+            </div>
+            <div class="features">
+              <div class="feature">
+                <span class="ic">📍</span>
+                <h4>Percorsi georeferenziati</h4>
+                <p>Modello <strong>Self-guided tour</strong>: percorsi georeferenziati per parchi, città, borghi e aree commerciali.</p>
+              </div>
+              <div class="feature">
+                <span class="ic">🖼</span>
+                <h4>Patrimonio nel Paesaggio</h4>
+                <p>Opere geolocalizzate nei luoghi che hanno ispirato gli artisti. Foto ricordo firmata dal brand.</p>
+              </div>
+              <div class="feature">
+                <span class="ic">🎫</span>
+                <h4>Hub prenotazione</h4>
+                <p>Catalogo unificato di esperienze con widget embeddabili sui siti partner.</p>
+              </div>
+              <div class="feature">
+                <span class="ic">🤖</span>
+                <h4>IA applicata</h4>
+                <p>Contenuti multilingua, assistenti informativi e ottimizzazione GEO per il visitatore.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <span>Contenuti demo · nomi di fantasia</span>
+          <span>LEM s.r.l. · Ornavasso (Verbania)</span>
+        </div>
+      </section>
+
+      <!-- ================= SLIDE 1 ================= -->
+      <section class="slide" id="s1">
+        <div class="slide__header">
+          <span class="brand">Patrimonio nel Paesaggio</span>
+          <span class="page-num">01 / 05</span>
+        </div>
+        <div class="slide__body">
+          <div class="s1">
+            <div class="left">
+              <div class="badge">Anteprima app · web · nessun download</div>
+              <h1 class="title">Arte, cultura, natura nel territorio e sul tuo <em>smartphone</em></h1>
+              <div class="rule"></div>
+              <p class="subtitle">
+                Opere d'arte, monumenti, natura, attrattori turistici... nei luoghi reali del territorio.
+                Il visitatore le raggiunge, si mette in posa, torna a casa con
+                una foto ricordo con informazioni o curiosità in overlay e brandizzata dall'ente culturale, destinazione, realtà commerciale.
+              </p>
+              <ul class="highlights">
+                <li>Percorso guidato nel territorio, parco, museo, centro storico.</li>
+                <li>Geolocalizzazione + navigazione con Google Maps o Apple Maps.</li>
+                <li>Check-in al luogo e foto ricordo con miniatura o contenuti sovrapposti e brandizzati.</li>
+                <li>La visita si trasforma in esperienza da condividere con il visitatore al centro.</li>
+                <li>Multilingua IT / EN, funziona su iOS e Android dal browser.</li>
+              </ul>
+            </div>
+            <div class="right">
+              <div class="phone">
+                <div class="phone-screen">
+                  <img src="/progetti/geo-overlay-webapp/presentazione/assets/ui-cover.png" width="390" height="1200" alt="Schermata di copertina della web app: hero, presentazione del percorso e invito a scoprire le opere" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <span>Modello di servizio · contenuto demo</span>
+          <span>Musei · fondazioni · enti culturali</span>
+        </div>
+      </section>
+
+      <!-- ================= SLIDE 2 ================= -->
+      <section class="slide" id="s2">
+        <div class="slide__header">
+          <span class="brand">Il percorso</span>
+          <span class="page-num">02 / 05</span>
+        </div>
+        <div class="slide__body">
+          <div class="s2">
+            <div class="col-text">
+              <h2 class="step">Ecco un esempio particolare</h2>
+              <div class="rule"></div>
+              <p class="lead">
+                Dal museo il visitatore apre l'app dal telefono e sceglie il
+                quadro che vuole andare a vedere dal vivo. L'app lo accompagna
+                dal titolo dell'opera alla scheda di dettaglio,
+                fino alla navigazione stradale.
+              </p>
+              <ol class="steps">
+                <li>
+                  <div>
+                    <strong>Scopre i luoghi</strong>
+                    <span>Mappa interattiva con marker numerati e griglia dei quadri, filtrabile.</span>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <strong>Apre il quadro</strong>
+                    <span>Scheda con miniatura, artista, anno, descrizione IT/EN e distanza in tempo reale.</span>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <strong>Si fa portare sul posto</strong>
+                    <span>Un tap avvia Google Maps o Apple Maps con destinazione preimpostata.</span>
+                  </div>
+                </li>
+              </ol>
+            </div>
+            <div class="phones">
+              <div class="phone phone--tilt-l">
+                <div class="phone-screen">
+                  <img src="/progetti/geo-overlay-webapp/presentazione/assets/ui-mappa.png" width="390" height="1200" alt="Schermata mappa interattiva con marker numerati dei luoghi e griglia delle opere" />
+                </div>
+              </div>
+              <div class="phone phone--tilt-r">
+                <div class="phone-screen">
+                  <img src="/progetti/geo-overlay-webapp/presentazione/assets/ui-opera.png" width="390" height="1100" alt="Scheda opera con miniatura, descrizione, navigazione e check-in GPS" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <span>Mappa · scheda quadro · navigazione esterna</span>
+          <span>Zero download · zero registrazione</span>
+        </div>
+      </section>
+
+      <!-- ================= SLIDE 3 ================= -->
+      <section class="slide" id="s3">
+        <div class="slide__header">
+          <span class="brand">La foto ricordo</span>
+          <span class="page-num">03 / 05</span>
+        </div>
+        <div class="slide__body">
+          <div class="s3">
+            <div class="col-text">
+              <h2 class="step">Un ricordo <em>brandizzato</em></h2>
+              <div class="rule"></div>
+              <p class="lead">
+                Quando il visitatore raggiunge il luogo dal vivo, l'app fa
+                partire il check-in via GPS e apre la fotocamera. Alla foto
+                scattata viene sovrapposta in automatico la fascia editoriale
+                del brand culturale, con la miniatura dell'opera.
+              </p>
+              <ul class="callouts">
+                <li>
+                  <span class="n">1</span>
+                  <div>
+                    <strong>Miniatura del quadro in cornice dorata</strong>
+                    <span>La stessa immagine del catalogo, sovrapposta in automatico alla foto.</span>
+                  </div>
+                </li>
+                <li>
+                  <span class="n">2</span>
+                  <div>
+                    <strong>Titolo, autore e "Sono stato qui"</strong>
+                    <span>Composti con tipografia da catalogo museale, insieme a luogo e data.</span>
+                  </div>
+                </li>
+                <li>
+                  <span class="n">3</span>
+                  <div>
+                    <strong>Salva sul telefono</strong>
+                    <span>Un tap sull'icona <em>download</em> scarica la foto ricordo nella galleria.</span>
+                  </div>
+                </li>
+                <li>
+                  <span class="n">4</span>
+                  <div>
+                    <strong>Condividi su WhatsApp e social</strong>
+                    <span>Un tocco su Condividi apre WhatsApp, Instagram, Facebook, Telegram, mail. Perfetto per il passaparola.</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-photo">
+              <div class="phone">
+                <div class="phone-screen">
+                  <img src="/progetti/geo-overlay-webapp/presentazione/assets/ui-foto-ricordo.png" width="390" height="844" alt="Schermata foto ricordo con overlay dell'opera, salvataggio e condivisione social" />
+                </div>
+              </div>
+              <div class="phone-label">Esempio di foto ricordo brandizzata · overlay opera + condivisione</div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <span>Composizione automatica lato utente · nessun upload</span>
+          <span>Ideale per passaparola sui social</span>
+        </div>
+      </section>
+
+      <!-- ================= SLIDE 4 ================= -->
+      <section class="slide" id="s4">
+        <div class="slide__header">
+          <span class="brand">In sintesi</span>
+          <span class="page-num">04 / 05</span>
+        </div>
+        <div class="slide__body">
+          <div class="s4">
+            <div class="intro">
+              <h2 class="step">Pronta <em>da subito</em></h2>
+              <div class="rule"></div>
+              <p class="lead">
+                Sito web ottimizzato per il telefono, senza app store, senza
+                account. Aperto da un QR code al museo o da un link nella
+                brochure, funziona come una vera app installabile.
+              </p>
+            </div>
+            <div class="features">
+              <div class="feature">
+                <span class="ic">A</span>
+                <h4>Bilingue IT / EN</h4>
+                <p>Selettore in header, lingua salvata nel dispositivo, rilevamento automatico dalla lingua del browser.</p>
+              </div>
+              <div class="feature">
+                <span class="ic">B</span>
+                <h4>Privacy by design</h4>
+                <p>Nessun backend, nessun tracking, nessun upload della foto. Tutto elaborato sul telefono del visitatore.</p>
+              </div>
+              <div class="feature">
+                <span class="ic">C</span>
+                <h4>iOS + Android</h4>
+                <p>Compatibile con Safari, Chrome, Edge. Installabile come app direttamente dal browser, senza store.</p>
+              </div>
+              <div class="feature">
+                <span class="ic">D</span>
+                <h4>Contenuti curati</h4>
+                <p>Schede opera + anagrafica ente, testi in JSON, facilmente aggiornabili anche in futuro.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <span>Aggiornamenti · testi e opere da file JSON, deploy automatico</span>
+          <span>Estendibile a nuovi allestimenti</span>
+        </div>
+      </section>
+
+      <!-- ================= SLIDE 5 — DESTINATARI ================= -->
+      <section class="slide" id="s5">
+        <div class="slide__header">
+          <span class="brand">Destinatari · SEO &amp; GEO</span>
+          <span class="page-num">05 / 05</span>
+        </div>
+        <div class="slide__body">
+          <div class="s4">
+            <div class="intro">
+              <h2 class="step">Per chi è pensato <em>questo modello</em></h2>
+              <div class="rule"></div>
+              <p class="lead">
+                Musei del paesaggio, fondazioni, parchi archeologici, borghi storici, festival culturali,
+                destinazioni turistiche e centri commerciali con patrimonio territoriale da valorizzare.
+                Struttura ottimizzata per ricerca organica e citazione da assistenti IA.
+              </p>
+            </div>
+            <div class="features">
+              <div class="feature">
+                <span class="ic">🏛</span>
+                <h4>Musei e fondazioni</h4>
+                <p>Collezioni legate al territorio, mostre permanenti, percorsi educativi outdoor.</p>
+              </div>
+              <div class="feature">
+                <span class="ic">🏔</span>
+                <h4>Parchi e borghi</h4>
+                <p>Percorsi georeferenziati in autonomia — stesso stack di <strong>Self-guided tour</strong>.</p>
+              </div>
+              <div class="feature">
+                <span class="ic">🛍</span>
+                <h4>Retail &amp; location</h4>
+                <p>Centri commerciali e venue che vogliono attrarre famiglie nel territorio circostante.</p>
+              </div>
+              <div class="feature">
+                <span class="ic">🌐</span>
+                <h4>Visibilità IA</h4>
+                <p>Contenuti strutturati per ChatGPT, Gemini, Perplexity e motori di ricerca locali.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <span>LEM s.r.l. · lemcomunicazione@gmail.com</span>
+          <span>Contenuti demo · nomi di fantasia</span>
+        </div>
+      </section>
+    </div>
+    <script>
+      // Modalita' "single slide" per screenshot: ?only=1..4 o #only=1..4
+      const qs = new URLSearchParams(location.search);
+      const hashMatch = (location.hash || "").match(/only=(\d+)/);
+      const only = qs.get("only") || (hashMatch ? hashMatch[1] : null);
+      if (only) {
+        const target = document.getElementById("s" + only);
+        if (target) {
+          document.querySelectorAll(".slide").forEach((s) => {
+            if (s !== target) s.remove();
+          });
+          const deck = document.querySelector(".deck");
+          deck.style.padding = "0";
+          deck.style.gap = "0";
+          target.style.boxShadow = "none";
+          target.style.borderRadius = "0";
+          document.body.style.background = "#f5ecd8";
+        }
+      }
+    </script>
+    <div id="site-footer"></div>
+    <script src="../../../js/includes.js"></script>
+  </body>
+</html>

@@ -1,0 +1,445 @@
+﻿<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio - LEM s.r.l. | Eventi, web app, prenotazioni, IA</title>
+  <meta name="description" content="Portfolio LEM s.r.l.: webapp georeferenziate, sistemi di prenotazione online, grandi eventi per famiglie, applicazioni con intelligenza artificiale, consulenza turistica e culturale. Piemonte, Lombardia, Italia.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.lemsrl.it/portfolio.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Portfolio - LEM s.r.l. | Eventi, web app, prenotazioni, IA">
+  <meta property="og:description" content="Portfolio LEM s.r.l.: webapp georeferenziate, sistemi di prenotazione, grandi eventi per famiglie, applicazioni con IA e consulenza turistica.">
+  <meta property="og:url" content="https://www.lemsrl.it/portfolio.html">
+  <meta property="og:image" content="https://www.lemsrl.it/assets/logos/lem-logo-bw.png">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:site_name" content="LEM s.r.l.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Portfolio - LEM s.r.l. | Eventi, web app, prenotazioni, IA">
+  <meta name="twitter:description" content="Portfolio LEM s.r.l.: webapp georeferenziate, sistemi di prenotazione, grandi eventi per famiglie, applicazioni con IA e consulenza turistica.">
+  <meta name="twitter:image" content="https://www.lemsrl.it/assets/logos/lem-logo-bw.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Portfolio - LEM s.r.l.",
+    "url": "https://www.lemsrl.it/portfolio.html",
+    "description": "Selezione di progetti LEM s.r.l.: eventi, web app, sistemi di prenotazione, IA e consulenza turistica.",
+    "isPartOf": {"@type": "WebSite", "url": "https://www.lemsrl.it/", "name": "LEM s.r.l."},
+    "about": [
+      {"@type": "Thing", "name": "Eventi per famiglie"},
+      {"@type": "Thing", "name": "Web app georeferenziate"},
+      {"@type": "Thing", "name": "Sistemi di prenotazione online"},
+      {"@type": "Thing", "name": "Intelligenza artificiale e GEO"}
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="assets/logos/lem-logo.png">
+</head>
+<body data-page="portfolio.html">
+
+<div id="site-header"></div>
+
+<main>
+
+  <section class="hero" style="padding-bottom: 40px;">
+    <div class="hero__inner" style="grid-template-columns: 1fr;">
+      <div style="max-width: 820px;">
+        <span class="hero__badge">Portfolio</span>
+        <h1 class="hero__title">Progetti <em>e</em> competenze</h1>
+        <p class="hero__subtitle">Una sintetica selezione dei lavori realizzati da LEM s.r.l. in oltre vent'anni di attività. Non ci siamo limitati a seguire le tendenze, le abbiamo comprese e dominate, grazie a competenze trasversali, dal linguaggio alla tecnologia. Per questo oggi siamo pronti alle nuove sfide dell'Intelligenza artificiale.</p>
+        <p class="hero__lead">
+          Creazione di eventi e format di successo, applicazioni web con IA, Realtà aumentata, sistemi di prenotazione online, campagne di comunicazione, progetti di sviluppo turistico e culturale. Non solo tecnologie ma «racconti digitali» orientati all'autenticità e al risultato. Se cerchi passione, competenza, esperienza ed innovazione sei nel posto giusto.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">Tutti</button>
+      <button class="filter-btn" data-filter="cursor">Digital &amp; IA</button>
+      <button class="filter-btn" data-filter="evento">Eventi</button>
+      <button class="filter-btn" data-filter="consulenza">Consulenza</button>
+      <button class="filter-btn" data-filter="turismo">Sviluppo turistico</button>
+    </div>
+
+    <!--
+      Struttura card portfolio (per futuri aggiornamenti):
+      1. titolo 1  → .project-card__title1  (testatina colorata per tipologia)
+      2. titolo 2  → .project-card__title2  (sottotitolo / categoria)
+      3. descrizione → .project-card__desc
+      4. piede     → .project-card__foot   (tecnologie / specifiche)
+      Tipologie colore testatina: --cursor | --evento | --consulenza | --turismo
+      (prima categoria in data-categories)
+    -->
+
+    <div class="portfolio-grid">
+
+      <a class="project-card" href="/progetti/self-guided-tour/index.html" data-categories="cursor,turismo">
+        <div class="project-card__head project-card__head--cursor">
+          <h3 class="project-card__title1">Self-guided tour</h3>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__title2">Digital &amp; IA - 2024</p>
+          <p class="project-card__desc">Percorsi georeferenziati con GPS check-in, POI multimediali, analytics anonimo o tracciabile con report statistici, multilingua e PWA.</p>
+          <div class="project-card__foot"><span>Leaflet</span><span>GPS</span><span>Analytics</span><span>PWA</span></div>
+        </div>
+      </a>
+
+      <a class="project-card" href="/progetti/geo-overlay-webapp/index.html" data-categories="cursor,turismo">
+        <div class="project-card__head project-card__head--cursor">
+          <h3 class="project-card__title1">Geo-overlay webapp</h3>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__title2">Digital &amp; IA - Georeferenziazione</p>
+          <p class="project-card__desc">Web app unica e innovativa per visualizzare informazioni e contenuti georeferenziati o brandizzati, condividibili dagli utenti. Personalizzazione, storytelling e social: da monumenti e risorse naturali a enogastronomia, eventi, cornici natalizie o tematiche.</p>
+          <div class="project-card__foot"><span>Geolocalizzazione</span><span>Canvas API</span><span>PWA</span><span>Social</span></div>
+        </div>
+      </a>
+
+      <a class="project-card" href="/progetti/installazioni-immersive-ar/index.html" data-categories="cursor,evento">
+        <div class="project-card__head project-card__head--cursor">
+          <h3 class="project-card__title1">Applicazioni e installazioni immersive e Realtà aumentata</h3>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__title2">Digital &amp; eventi · 2024 – 2026</p>
+          <p class="project-card__desc">Web app AR per postazioni selfie ed esperienze immersive per comuni e centri commerciali: eventi, spettacoli, Natale. Senza app da scaricare; anche fornitura di postazioni fisiche 3D.</p>
+          <div class="project-card__foot"><span>WebAR</span><span>Selfie</span><span>Comuni</span><span>Centri commerciali</span></div>
+        </div>
+      </a>
+
+      <a class="project-card" href="/progetti/ecosistema-booking/index.html" data-categories="cursor,consulenza">
+        <div class="project-card__head project-card__head--cursor">
+          <h3 class="project-card__title1">Sistemi di prenotazione online</h3>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__title2">Digital &amp; IA · Da oltre 15 anni</p>
+          <p class="project-card__desc"><strong>Oltre 640 mila prenotazioni gestite, tutto personalizzato.</strong> Booking per eventi live e online (videochiamate), parchi, spiagge, trasporti, concessionari e noleggio. Presentazione del sistema, check-in, report, SEO/GEO.</p>
+          <div class="project-card__foot"><span>640k+ prenotazioni</span><span>Booking</span><span>Presentazione</span></div>
+        </div>
+      </a>
+
+      <a class="project-card" href="/progetti/hub-prenotazione-turistica/index.html" data-categories="cursor,turismo">
+        <div class="project-card__head project-card__head--cursor">
+          <h3 class="project-card__title1">Hub prenotazione turistica</h3>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__title2">Digital &amp; IA - Turismo</p>
+          <p class="project-card__desc">Sistema di prenotazione unificato per localita turistica: hotel, attivita, esperienze, integrazione con canali di distribuzione.</p>
+          <div class="project-card__foot"><span>Booking</span><span>Presentazione</span><span>Turismo</span></div>
+        </div>
+      </a>
+
+      <a class="project-card" href="/progetti/report-campagne-digitali/index.html" data-categories="cursor,consulenza">
+        <div class="project-card__head project-card__head--cursor">
+          <h3 class="project-card__title1">Ottimizzazione campagne ADV Google e Meta</h3>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__title2">Digital &amp; IA - Marketing automation</p>
+          <p class="project-card__desc">Ottimizzazione e report settimanali delle campagne ADV Google e Meta, multi-settore (eventi, turismo, retail). Dal 2020.</p>
+          <div class="project-card__foot"><span>Google Ads</span><span>Meta Ads</span></div>
+        </div>
+      </a>
+
+      <a class="project-card" href="/progetti/ottimizzazione-siti-ia/index.html" data-categories="cursor,consulenza">
+        <div class="project-card__head project-card__head--cursor">
+          <h3 class="project-card__title1">Ottimizzazione siti web aziendali per Intelligenza artificiale</h3>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__title2">Digital &amp; IA - GEO &amp; contenuti · 2025 – 2026</p>
+          <p class="project-card__desc">Abbiamo aiutato aziende e operatori economici a rivedere la presenza online: audit, riscrittura, Schema, FAQ e allineamento a come l'IA cita i brand.</p>
+          <div class="project-card__foot"><span>GEO</span><span>Schema.org</span><span>FAQ</span><span>Contenuti</span></div>
+        </div>
+      </a>
+
+      <a class="project-card" href="/progetti/ottimizzazione-turismo-ia/index.html" data-categories="cursor,turismo">
+        <div class="project-card__head project-card__head--cursor">
+          <h3 class="project-card__title1">GEO e Intelligenza artificiale per destinazioni ed eventi</h3>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__title2">Digital &amp; IA · Turismo · 2026</p>
+          <p class="project-card__desc">Stiamo supportando località turistiche ed eventi per ottimizzare la visibilità in rete e restare citabili da motori e assistenti di intelligenza artificiale.</p>
+          <div class="project-card__foot"><span>GEO</span><span>Destinazioni</span><span>Eventi</span><span>DMO</span></div>
+        </div>
+      </a>
+
+      <a class="project-card" href="/progetti/nuovi-linguaggi-cultura-turismo/index.html" data-categories="cursor,turismo">
+        <div class="project-card__head project-card__head--cursor">
+          <h3 class="project-card__title1">Nuovi linguaggi per cultura, natura, turismo</h3>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__title2">Cultura · musei · turismo · location — dal 2023</p>
+          <p class="project-card__desc">Narrazione controllata, format audiovisivi, WebAR ed ecosistema prima-durante-dopo per far parlare patrimonio, paesaggio e destinazioni.</p>
+          <div class="project-card__foot"><span>Cultura</span><span>Turismo</span><span>Location</span></div>
+        </div>
+      </a>
+
+      <a class="project-card" href="/progetti/grotta-babbo-natale/index.html" data-categories="evento">
+        <div class="project-card__head project-card__head--evento">
+          <h3 class="project-card__title1">Grotta di Babbo Natale</h3>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__title2">Evento - dal 2009</p>
+          <p class="project-card__desc">Format proprietario. Parco outdoor, grotta sotterranea, trenini, animazioni e spettacoli. Da 20mila a 50mila visitatori l'anno.</p>
+          <div class="project-card__foot"><span>Lago Maggiore</span><span>Natale</span></div>
+        </div>
+      </a>
+
+      <a class="project-card" href="/progetti/videochiamata-letterina-babbo-natale/index.html" data-categories="evento,cursor">
+        <div class="project-card__head project-card__head--evento">
+          <h3 class="project-card__title1">Videochiamata e Letterina Babbo Natale e spettacoli online</h3>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__title2">Evento · Digital · 2020 – 2026</p>
+          <p class="project-card__desc">Videochiamata in diretta con Babbo Natale, booking e pagamento online, video brandizzati, teatro digitale/magia e Lettera originale dalla Lapponia. Per Grotta di Babbo Natale, Comuni, Centri commerciali, Asili, Aziende.</p>
+          <div class="project-card__foot"><span>Videochiamata</span><span>Letterina</span><span>Booking</span><span>Online</span></div>
+        </div>
+      </a>
+
+      <a class="project-card" href="/progetti/walsertreffen-2022/index.html" data-categories="evento,consulenza,turismo">
+        <div class="project-card__head project-card__head--evento">
+          <h3 class="project-card__title1">Raduno internazionale walser</h3>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__title2">Evento - 2022</p>
+          <p class="project-card__desc">15mila visitatori, 42 gruppi, 5 nazioni. Organizzazione, logistica, prenotazioni, trasporti, comunicazione.</p>
+          <div class="project-card__foot"><span>Cultura</span><span>15mila persone</span></div>
+        </div>
+      </a>
+
+      <a class="project-card" href="/progetti/castello-delle-sorprese/index.html" data-categories="evento">
+        <div class="project-card__head project-card__head--evento">
+          <h3 class="project-card__title1">Castello delle Sorprese</h3>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__title2">Evento - Family</p>
+          <p class="project-card__desc">Format family in location storica. Musical, principesse, magia, giochi in legno, aree tematiche.</p>
+          <div class="project-card__foot"><span>Castello</span><span>Family</span></div>
+        </div>
+      </a>
+
+      <a class="project-card" href="/progetti/lago-dei-draghi/index.html" data-categories="evento">
+        <div class="project-card__head project-card__head--evento">
+          <h3 class="project-card__title1">Lago dei Draghi</h3>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__title2">Evento - Outdoor</p>
+          <p class="project-card__desc">I nostri animatronici, le mostre, i laboratori, gli "scienziati pazzi", attori e format sono a disposizione per allestimenti ed eventi in tutto il Nord Italia, sia per evento outdoor che indoor (Borghi, parchi, castelli, musei, Centri commerciali, Outlet, location turistiche).</p>
+          <div class="project-card__foot"><span>Lago</span><span>Animatronici</span></div>
+        </div>
+      </a>
+
+      <a class="project-card" href="/progetti/eventi-centri-commerciali/index.html" data-categories="evento">
+        <div class="project-card__head project-card__head--evento">
+          <h3 class="project-card__title1">Animazioni, eventi e spettacoli per Centri commerciali ed Outlet</h3>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__title2">Evento · 2023 – 2026</p>
+          <p class="project-card__desc">Installazioni ed eventi tematici per centri commerciali, outlet e attività commerciali: fantasy, Natale, interattività AR, giochi e aree sensoriali. Concept, produzione e gestione operativa.</p>
+          <div class="project-card__foot"><span>Retail</span><span>Outlet</span><span>Family</span></div>
+        </div>
+      </a>
+
+      <a class="project-card" href="/progetti/natale-in-citta/index.html" data-categories="evento,turismo">
+        <div class="project-card__head project-card__head--evento">
+          <h3 class="project-card__title1">Natale in città: allestimenti natalizi per comuni</h3>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__title2">Evento - Natale</p>
+          <p class="project-card__desc">Allestimenti natalizi ed eventi per comuni e associazioni turistiche in Nord Italia. Tra le collaborazioni recenti: Verbania, Baveno, Stresa, Peschiera Borromeo.</p>
+          <div class="project-card__foot"><span>Comuni</span><span>Nord Italia</span></div>
+        </div>
+      </a>
+
+      <a class="project-card" href="/progetti/tram-express/index.html" data-categories="evento">
+        <div class="project-card__head project-card__head--evento">
+          <h3 class="project-card__title1">Tram Express</h3>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__title2">Evento - Urbano</p>
+          <p class="project-card__desc">Tram storico con animazione natalizia e versioni tematiche. Esperienza urbana immersiva in centro citta.</p>
+          <div class="project-card__foot"><span>Milano</span><span>Urban experience</span></div>
+        </div>
+      </a>
+
+      <a class="project-card" href="/progetti/regina-dei-ghiacci/index.html" data-categories="evento,turismo">
+        <div class="project-card__head project-card__head--evento">
+          <h3 class="project-card__title1">Regina dei Ghiacci</h3>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__title2">Evento - Montagna</p>
+          <p class="project-card__desc">Format week end in quota: funivia, musical, museo, esperienze. Progetto pilota destination event alpino.</p>
+          <div class="project-card__foot"><span>Montagna</span><span>Format esclusivo</span></div>
+        </div>
+      </a>
+
+      <a class="project-card" href="/progetti/villaggio-delle-zucche/index.html" data-categories="evento">
+        <div class="project-card__head project-card__head--evento">
+          <h3 class="project-card__title1">Villaggio delle Zucche</h3>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__title2">Evento - Autunno</p>
+          <p class="project-card__desc">Evento autunnale family con lab creativi, percorsi, animazioni e allestimenti tematici.</p>
+          <div class="project-card__foot"><span>Autunno</span><span>Family</span></div>
+        </div>
+      </a>
+
+      <a class="project-card" href="/progetti/palazzo-giochi/index.html" data-categories="evento">
+        <div class="project-card__head project-card__head--evento">
+          <h3 class="project-card__title1">Palazzo dei Giochi</h3>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__title2">Evento - Natale</p>
+          <p class="project-card__desc">Fino a 300 postazioni gioco in legno in location congressuale. Format natalizio indoor per famiglie.</p>
+          <div class="project-card__foot"><span>Giochi legno</span><span>Natale</span></div>
+        </div>
+      </a>
+
+      <a class="project-card" href="/progetti/sviluppo-turistico/index.html" data-categories="turismo,consulenza">
+        <div class="project-card__head project-card__head--turismo">
+          <h3 class="project-card__title1">Consulenza Bandi e Progetti Europei</h3>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__title2">Consulenza - Turismo</p>
+          <p class="project-card__desc">Piano strategico, bandi transfrontalieri, progetti regionali, rete di operatori turistici.</p>
+          <div class="project-card__foot"><span>Strategia</span><span>Bandi</span></div>
+        </div>
+      </a>
+
+      <a class="project-card" href="/progetti/valorizzazione-attrazione/index.html" data-categories="turismo,consulenza">
+        <div class="project-card__head project-card__head--turismo">
+          <h3 class="project-card__title1">Lancio di nuove attrazioni e attività</h3>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__title2">Consulenza - Turismo</p>
+          <p class="project-card__desc">Partnership per località turistiche: booking automatizzato, gestione visite e clientela, promo con consorzi e influencer, banca dati 65.000 famiglie, email, SMS, SEO e GEO.</p>
+          <div class="project-card__foot"><span>Booking</span><span>Marketing</span><span>SEO/GEO</span></div>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <section class="strip">
+    <div class="strip__inner">
+      <h3>Cerchi un caso <em>simile al tuo</em>?</h3>
+      <p>Scrivici indicando l'ambito (evento, webapp, campagna, consulenza) e ti inviamo case study pertinenti con numeri e dettagli.</p>
+      <a href="contatti.html" class="btn btn--primary">Contattaci</a>
+    </div>
+  </section>
+
+  <section class="section collaborators" aria-label="Collaborazioni">
+    <div class="collaborators__carousel" data-collaborators-carousel>
+      <div class="collaborators__viewport">
+        <div class="collaborators__track" data-collaborators-track>
+          <ul class="collaborators__page" data-collaborators-page aria-label="Collaborazioni, pagina 1">
+            <li class="collaborators__item" data-collaborator-fixed><img src="assets/loghi-collaborazioni/01-comune-di-milano.webp" alt="Comune di Milano" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item" data-collaborator-fixed><img src="assets/loghi-collaborazioni/02-fao-schwarz.webp" alt="FAO Schwarz" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item" data-collaborator-fixed><img src="assets/loghi-collaborazioni/03-toys-center.webp" alt="Toys Center" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item" data-collaborator-fixed><img src="assets/loghi-collaborazioni/04-citta-di-stresa.webp" alt="Città di Stresa" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item" data-collaborator-fixed><img src="assets/loghi-collaborazioni/05-comune-di-forte-dei-marmi.webp" alt="Comune di Forte dei Marmi" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item" data-collaborator-fixed><img src="assets/loghi-collaborazioni/06-toyota.webp" alt="Toyota" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item" data-collaborator-fixed><img src="assets/loghi-collaborazioni/07-citta-di-verbania.webp" alt="Città di Verbania" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item" data-collaborator-fixed><img src="assets/loghi-collaborazioni/08-comune-di-alagna-valsesia.webp" alt="Comune di Alagna Valsesia" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item" data-collaborator-fixed><img src="assets/loghi-collaborazioni/18-coop-novacoop.webp" alt="Coop Novacoop" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item" data-collaborator-fixed><img src="assets/loghi-collaborazioni/61-confindustria.webp" alt="Confindustria" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item" data-collaborator-fixed><img src="assets/loghi-collaborazioni/62-citta-di-novara.webp" alt="Città di Novara" loading="lazy" width="240" height="120"></li>
+          </ul>
+          <ul class="collaborators__page" data-collaborators-page aria-label="Collaborazioni, pagina 2" hidden>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/09-citta-di-omegna.webp" alt="Città di Omegna" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/10-comune-di-macugnaga.webp" alt="Comune di Macugnaga" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/11-citta-di-avigliana.webp" alt="Città di Avigliana" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/12-citta-di-peschiera-borromeo.webp" alt="Città di Peschiera Borromeo" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/13-domo-bianca-mountain-365.webp" alt="Domo Bianca Mountain 365" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/14-monterosa.webp" alt="Monterosa" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/15-alpemera.webp" alt="Alpemera" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/16-borgo-di-bard.webp" alt="Borgo di Bard" loading="lazy" width="240" height="120"></li>
+          </ul>
+          <ul class="collaborators__page" data-collaborators-page aria-label="Collaborazioni, pagina 3" hidden>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/17-le-isole.webp" alt="Le Isole" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/19-castello-di-piovera.webp" alt="Castello di Piovera" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/20-castello-di-buronzo.webp" alt="Castello di Buronzo" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/21-castello-dal-pozzo.webp" alt="Castello Dal Pozzo" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/22-tabiano-castello.webp" alt="Tabiano Castello" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/23-vittoria-in-fiaba.webp" alt="Vittoria in Fiaba" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/24-turismo-valsesia-vercelli.webp" alt="Turismo Valsesia Vercelli" loading="lazy" width="240" height="120"></li>
+          </ul>
+          <ul class="collaborators__page" data-collaborators-page aria-label="Collaborazioni, pagina 4" hidden>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/25-aquaventure-park-baveno.png" alt="Aquaventure Park Baveno" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/26-ristorante-lago-delle-rose.webp" alt="Ristorante Lago delle Rose" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/27-holidays-lago-maggiore.png" alt="Holidays Lago Maggiore" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/28-san-vito.webp" alt="San Vito" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/29-cra2a.webp" alt="CRA2A" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/30-walsertreffen-2022.webp" alt="Walsertreffen 2022" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/31-club-ippico-monzese.webp" alt="Club Ippico Monzese" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/32-calabria.webp" alt="Calabria" loading="lazy" width="240" height="120"></li>
+          </ul>
+          <ul class="collaborators__page" data-collaborators-page aria-label="Collaborazioni, pagina 5" hidden>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/33-casacarita.webp" alt="Casa Carità" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/34-ciesseti.webp" alt="Ciesseti" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/35-fondazione-campus.webp" alt="Fondazione Campus" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/36-fondazione-magnetto.webp" alt="Fondazione Magnetto" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/37-le-dune.webp" alt="Le Dune" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/38-gr-omegna.webp" alt="GR Omegna" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/39-piazza-paradiso.webp" alt="Piazza Paradiso" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/40-comune-di-premia.webp" alt="Comune di Premia" loading="lazy" width="240" height="120"></li>
+          </ul>
+          <ul class="collaborators__page" data-collaborators-page aria-label="Collaborazioni, pagina 6" hidden>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/41-volontariato-torino.webp" alt="Volontariato Torino" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/42-umvo.webp" alt="UMVO" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/43-cannobio-adventure.webp" alt="Cannobio Adventure" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/44-consorzio-turistico-walser-alagna.webp" alt="Consorzio Turistico Walser di Alagna Valsesia" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/45-comune-di-baveno.webp" alt="Comune di Baveno" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/46-vita-attiva.webp" alt="Vita Attiva" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/47-le-meraviglie-della-terra-del-fiume.webp" alt="Le meraviglie della terra del fiume" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/48-citta-di-palazzolo-sull-oglio.webp" alt="Città di Palazzolo sull'Oglio" loading="lazy" width="240" height="120"></li>
+          </ul>
+          <ul class="collaborators__page" data-collaborators-page aria-label="Collaborazioni, pagina 7" hidden>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/49-navigazione-isole-lago-maggiore.webp" alt="Navigazione Isole Lago Maggiore" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/50-anffas-onlus.webp" alt="Anffas Onlus" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/51-antica-cava-moschini.webp" alt="Antica Cava Moschini" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/52-alpen-stop.webp" alt="Alpen Stop" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/53-cst.webp" alt="CST" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/54-novara-conibambini.webp" alt="Novara conibambini" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/55-bcc-la-riscossa-regalbuto.webp" alt="BCC La Riscossa di Regalbuto" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/56-paneliquido.webp" alt="PANELIQUIDO" loading="lazy" width="240" height="120"></li>
+          </ul>
+          <ul class="collaborators__page" data-collaborators-page aria-label="Collaborazioni, pagina 8" hidden>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/57-piazza-commerciale-botticelli.webp" alt="Piazza Commerciale Botticelli" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/58-laghi-e-monti.webp" alt="Laghi &amp; Monti" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/59-rodari.webp" alt="Rodari" loading="lazy" width="240" height="120"></li>
+            <li class="collaborators__item"><img src="assets/loghi-collaborazioni/60-ossola-outdoor-center.webp" alt="Ossola Outdoor Center" loading="lazy" width="240" height="120"></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="collaborators__controls">
+        <button type="button" class="collaborators__nav-btn" data-collaborators-prev aria-label="Pagina precedente dei loghi">
+          <span aria-hidden="true">‹</span>
+        </button>
+        <div class="collaborators__dots" data-collaborators-dots role="tablist" aria-label="Pagine collaborazioni"></div>
+        <button type="button" class="collaborators__nav-btn" data-collaborators-next aria-label="Pagina successiva dei loghi">
+          <span aria-hidden="true">›</span>
+        </button>
+      </div>
+      <p class="visually-hidden" data-collaborators-status aria-live="polite"></p>
+    </div>
+  </section>
+
+</main>
+
+<div id="site-footer"></div>
+
+<script src="js/includes.js"></script>
+<script src="js/portfolio.js"></script>
+</body>
+</html>

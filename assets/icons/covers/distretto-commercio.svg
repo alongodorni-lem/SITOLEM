@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" fill="none">
+  <rect width="320" height="180" fill="#E8F0EE"/>
+  <rect x="0" y="0" width="320" height="180" fill="url(#g)" opacity="0.35"/>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="320" y2="180" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#B8D0C8"/><stop offset="1" stop-color="#E8F0EE"/>
+  </linearGradient></defs>
+
+  <rect x="70" y="60" width="50" height="70" fill="#fff" stroke="#245A52" stroke-width="1.8"/>
+  <rect x="135" y="45" width="50" height="85" fill="#fff" stroke="#245A52" stroke-width="1.8"/>
+  <rect x="200" y="70" width="50" height="60" fill="#fff" stroke="#245A52" stroke-width="1.8"/>
+  <path d="M70 60l25-15 25 15M135 45l25-18 25 18M200 70l25-12 25 12" stroke="#245A52" stroke-width="1.5" fill="none"/>
+  <rect x="85" y="85" width="20" height="15" fill="#B8D0C8" stroke="#245A52" stroke-width="1"/>
+  <rect x="150" y="75" width="20" height="20" fill="#B8D0C8" stroke="#245A52" stroke-width="1"/>
+  <rect x="215" y="90" width="20" height="15" fill="#B8D0C8" stroke="#245A52" stroke-width="1"/>
+  <rect x="150" y="105" width="20" height="25" fill="#245A52"/>
+  <path d="M50 140h220" stroke="#245A52" stroke-width="1.5" opacity="0.3"/>
+</svg>

@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 720" role="img" aria-labelledby="dispTitle dispDesc">
+  <title id="dispTitle">Gestione disponibilita risorse - schema</title>
+  <desc id="dispDesc">Calendario mensile per modificare rapidamente capienze e disponibilita. Dati quantitativi schematici.</desc>
+  <defs>
+    <filter id="blurQty" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+  </defs>
+
+  <rect width="1100" height="720" fill="#F5F4F0"/>
+  <rect x="24" y="24" width="1052" height="672" rx="4" fill="#FFFFFF" stroke="#D9D8D3"/>
+
+  <text x="48" y="64" fill="#171717" font-family="Georgia, serif" font-size="18" font-weight="600">Disponibilita risorse</text>
+  <text x="48" y="88" fill="#686868" font-family="sans-serif" font-size="12">Verifica e modifica rapidamente la disponibilita di una risorsa</text>
+
+  <rect x="48" y="108" width="520" height="48" rx="3" fill="#F5F4F0" stroke="#245A52" stroke-width="2"/>
+  <text x="64" y="128" fill="#686868" font-size="11" font-family="sans-serif">Risorsa</text>
+  <g filter="url(#blurQty)">
+    <text x="64" y="148" fill="#171717" font-size="14" font-family="Georgia, serif" font-weight="600">Evento tematico - stagione 2026</text>
+  </g>
+  <text x="520" y="138" fill="#245A52" font-size="16">v</text>
+
+  <rect x="590" y="108" width="220" height="48" rx="3" fill="rgba(36,90,82,.08)" stroke="#245A52" stroke-dasharray="3 2"/>
+  <text x="700" y="128" text-anchor="middle" fill="#245A52" font-size="10" font-family="sans-serif" font-weight="700" letter-spacing="1">SELETTORE RISORSA</text>
+  <text x="700" y="146" text-anchor="middle" fill="#686868" font-size="11" font-family="sans-serif">Cambio istantaneo contesto</text>
+
+  <rect x="830" y="108" width="222" height="48" rx="3" fill="#EEEDE8" stroke="#D9D8D3"/>
+  <text x="941" y="137" text-anchor="middle" fill="#A65D2E" font-size="12" font-family="sans-serif" font-weight="600">Stato pubblicazione - bozza</text>
+
+  <text x="550" y="198" text-anchor="middle" fill="#171717" font-family="Georgia, serif" font-size="22" font-weight="600">Agosto 2026</text>
+  <text x="48" y="198" fill="#245A52" font-size="13" font-family="sans-serif">&lt; precedente</text>
+  <text x="1052" y="198" text-anchor="end" fill="#245A52" font-size="13" font-family="sans-serif">successivo &gt;</text>
+  <text x="550" y="222" text-anchor="middle" fill="#686868" font-size="12" font-family="sans-serif">Oggi</text>
+
+  <g font-family="sans-serif" font-size="11" font-weight="600" fill="#245A52">
+    <text x="160" y="258" text-anchor="middle">Lun</text>
+    <text x="300" y="258" text-anchor="middle">Mar</text>
+    <text x="440" y="258" text-anchor="middle">Mer</text>
+    <text x="580" y="258" text-anchor="middle">Gio</text>
+    <text x="720" y="258" text-anchor="middle">Ven</text>
+    <text x="860" y="258" text-anchor="middle">Sab</text>
+    <text x="1000" y="258" text-anchor="middle">Dom</text>
+  </g>
+
+  <g id="week1" font-family="sans-serif">
+    <text x="48" y="310" fill="#686868" font-size="10">Sett. #31</text>
+    <text x="48" y="326" fill="#245A52" font-size="9">week vac.</text>
+    <rect x="100" y="278" width="120" height="72" fill="#EEEDE8" opacity=".4"/>
+    <rect x="240" y="278" width="120" height="72" fill="#EEEDE8" opacity=".4"/>
+    <rect x="380" y="278" width="120" height="72" fill="#EEEDE8" opacity=".4"/>
+    <rect x="520" y="278" width="120" height="72" fill="#EEEDE8" opacity=".4"/>
+    <rect x="660" y="278" width="120" height="72" fill="#EEEDE8" opacity=".4"/>
+    <rect x="800" y="278" width="120" height="72" fill="#E8F0EE" stroke="#245A52" stroke-width="1"/>
+    <text x="812" y="296" fill="#171717" font-size="12" font-weight="700">1</text>
+    <text x="812" y="314" fill="#686868" font-size="9">Riservato: 0</text>
+    <text x="812" y="328" fill="#686868" font-size="9">Ferie: 0</text>
+    <text x="812" y="342" fill="#245A52" font-size="9" font-weight="600">Disp.</text>
+    <g filter="url(#blurQty)"><text x="870" y="342" fill="#245A52" font-size="11" font-weight="700">900</text></g>
+    <rect x="940" y="278" width="120" height="72" fill="#E8F0EE" stroke="#D9D8D3"/>
+    <text x="952" y="296" fill="#171717" font-size="12" font-weight="700">2</text>
+    <text x="952" y="314" fill="#686868" font-size="9">Riservato: 0</text>
+    <text x="952" y="328" fill="#686868" font-size="9">Ferie: 0</text>
+    <text x="952" y="342" fill="#245A52" font-size="9" font-weight="600">Disp.</text>
+    <g filter="url(#blurQty)"><text x="1010" y="342" fill="#245A52" font-size="11" font-weight="700">900</text></g>
+  </g>
+
+  <g id="week2" font-family="sans-serif">
+    <text x="48" y="390" fill="#686868" font-size="10">Sett. #32</text>
+    <text x="48" y="406" fill="#245A52" font-size="9">week vac.</text>
+    <rect x="100" y="358" width="120" height="72" fill="#E8F0EE" stroke="#D9D8D3"/>
+    <text x="112" y="376" fill="#171717" font-size="12" font-weight="700">3</text>
+    <text x="112" y="394" fill="#686868" font-size="9">Riservato: 12</text>
+    <text x="112" y="408" fill="#686868" font-size="9">Ferie: 0</text>
+    <text x="112" y="422" fill="#245A52" font-size="9" font-weight="600">Disp.</text>
+    <g filter="url(#blurQty)"><text x="170" y="422" fill="#245A52" font-size="11" font-weight="700">900</text></g>
+
+    <rect x="240" y="358" width="120" height="72" fill="#E8F0EE" stroke="#D9D8D3"/>
+    <text x="252" y="376" fill="#171717" font-size="12" font-weight="700">4</text>
+    <text x="252" y="394" fill="#686868" font-size="9">Riservato: 8</text>
+    <text x="252" y="408" fill="#686868" font-size="9">Ferie: 0</text>
+    <text x="252" y="422" fill="#245A52" font-size="9" font-weight="600">Disp.</text>
+    <g filter="url(#blurQty)"><text x="310" y="422" fill="#245A52" font-size="11" font-weight="700">900</text></g>
+
+    <rect x="380" y="358" width="120" height="72" fill="#E8F0EE" stroke="#245A52" stroke-width="2"/>
+    <text x="392" y="376" fill="#245A52" font-size="12" font-weight="700">5</text>
+    <text x="392" y="394" fill="#686868" font-size="9">Riservato: 45</text>
+    <text x="392" y="408" fill="#686868" font-size="9">Ferie: 0</text>
+    <text x="392" y="422" fill="#245A52" font-size="9" font-weight="600">Disp.</text>
+    <g filter="url(#blurQty)"><text x="450" y="422" fill="#245A52" font-size="11" font-weight="700">900</text></g>
+
+    <rect x="520" y="358" width="120" height="72" fill="#E8F0EE" stroke="#D9D8D3"/>
+    <text x="532" y="376" fill="#171717" font-size="12" font-weight="700">6</text>
+    <text x="532" y="394" fill="#686868" font-size="9">Riservato: 22</text>
+    <text x="532" y="408" fill="#686868" font-size="9">Ferie: 0</text>
+    <text x="532" y="422" fill="#245A52" font-size="9" font-weight="600">Disp.</text>
+    <g filter="url(#blurQty)"><text x="590" y="422" fill="#245A52" font-size="11" font-weight="700">900</text></g>
+
+    <rect x="660" y="358" width="120" height="72" fill="#E8F0EE" stroke="#D9D8D3"/>
+    <text x="672" y="376" fill="#171717" font-size="12" font-weight="700">7</text>
+    <text x="672" y="394" fill="#686868" font-size="9">Riservato: 30</text>
+    <text x="672" y="408" fill="#686868" font-size="9">Ferie: 0</text>
+    <text x="672" y="422" fill="#245A52" font-size="9" font-weight="600">Disp.</text>
+    <g filter="url(#blurQty)"><text x="730" y="422" fill="#245A52" font-size="11" font-weight="700">900</text></g>
+
+    <rect x="800" y="358" width="120" height="72" fill="#E8F0EE" stroke="#D9D8D3"/>
+    <text x="812" y="376" fill="#171717" font-size="12" font-weight="700">8</text>
+    <text x="812" y="394" fill="#686868" font-size="9">Riservato: 110</text>
+    <text x="812" y="408" fill="#686868" font-size="9">Ferie: 0</text>
+    <text x="812" y="422" fill="#245A52" font-size="9" font-weight="600">Disp.</text>
+    <g filter="url(#blurQty)"><text x="870" y="422" fill="#245A52" font-size="11" font-weight="700">900</text></g>
+
+    <rect x="940" y="358" width="120" height="72" fill="#E8F0EE" stroke="#D9D8D3"/>
+    <text x="952" y="376" fill="#171717" font-size="12" font-weight="700">9</text>
+    <text x="952" y="394" fill="#686868" font-size="9">Riservato: 95</text>
+    <text x="952" y="408" fill="#686868" font-size="9">Ferie: 0</text>
+    <text x="952" y="422" fill="#245A52" font-size="9" font-weight="600">Disp.</text>
+    <g filter="url(#blurQty)"><text x="1010" y="422" fill="#245A52" font-size="11" font-weight="700">900</text></g>
+  </g>
+
+  <g id="week3" font-family="sans-serif">
+    <text x="48" y="470" fill="#686868" font-size="10">Sett. #33</text>
+    <text x="48" y="486" fill="#245A52" font-size="9">week vac.</text>
+    <rect x="100" y="438" width="120" height="72" fill="#E8F0EE" stroke="#D9D8D3"/>
+    <text x="112" y="456" fill="#171717" font-size="12" font-weight="700">10</text>
+    <text x="112" y="474" fill="#686868" font-size="9">Riservato: 60</text>
+    <text x="112" y="488" fill="#686868" font-size="9">Ferie: 0</text>
+    <text x="112" y="502" fill="#245A52" font-size="9" font-weight="600">Disp. - ***</text>
+
+    <rect x="240" y="438" width="120" height="72" fill="#E8F0EE" stroke="#D9D8D3"/>
+    <text x="252" y="456" fill="#171717" font-size="12" font-weight="700">11</text>
+    <text x="252" y="474" fill="#686868" font-size="9">Riservato: 40</text>
+    <text x="252" y="488" fill="#686868" font-size="9">Ferie: 0</text>
+    <text x="252" y="502" fill="#245A52" font-size="9" font-weight="600">Disp. - ***</text>
+
+    <rect x="380" y="438" width="120" height="72" fill="#E8F0EE" stroke="#D9D8D3"/>
+    <text x="392" y="456" fill="#171717" font-size="12" font-weight="700">12</text>
+    <text x="392" y="474" fill="#686868" font-size="9">Riservato: 55</text>
+    <text x="392" y="488" fill="#686868" font-size="9">Ferie: 0</text>
+    <text x="392" y="502" fill="#245A52" font-size="9" font-weight="600">Disp. - ***</text>
+
+    <rect x="520" y="438" width="120" height="72" fill="#F3E8E0" stroke="#A65D2E"/>
+    <text x="532" y="456" fill="#A65D2E" font-size="12" font-weight="700">13</text>
+    <text x="532" y="474" fill="#686868" font-size="9">Riservato: 0</text>
+    <text x="532" y="488" fill="#A65D2E" font-size="9">Ferie: si</text>
+    <text x="532" y="502" fill="#A65D2E" font-size="9" font-weight="600">Chiuso</text>
+
+    <rect x="660" y="438" width="120" height="72" fill="#E8F0EE" stroke="#D9D8D3"/>
+    <text x="672" y="456" fill="#171717" font-size="12" font-weight="700">14</text>
+    <text x="672" y="474" fill="#686868" font-size="9">Riservato: 70</text>
+    <text x="672" y="488" fill="#686868" font-size="9">Ferie: 0</text>
+    <text x="672" y="502" fill="#245A52" font-size="9" font-weight="600">Disp. - ***</text>
+
+    <rect x="800" y="438" width="120" height="72" fill="#E8F0EE" stroke="#D9D8D3"/>
+    <text x="812" y="456" fill="#171717" font-size="12" font-weight="700">15</text>
+    <text x="812" y="474" fill="#686868" font-size="9">Riservato: 200</text>
+    <text x="812" y="488" fill="#686868" font-size="9">Ferie: 0</text>
+    <text x="812" y="502" fill="#245A52" font-size="9" font-weight="600">Disp. - ***</text>
+
+    <rect x="940" y="438" width="120" height="72" fill="#E8F0EE" stroke="#D9D8D3"/>
+    <text x="952" y="456" fill="#171717" font-size="12" font-weight="700">16</text>
+    <text x="952" y="474" fill="#686868" font-size="9">Riservato: 180</text>
+    <text x="952" y="488" fill="#686868" font-size="9">Ferie: 0</text>
+    <text x="952" y="502" fill="#245A52" font-size="9" font-weight="600">Disp. - ***</text>
+  </g>
+
+  <rect x="48" y="540" width="320" height="120" rx="3" fill="#245A52"/>
+  <text x="68" y="570" fill="#FFFFFF" font-size="12" font-family="sans-serif" font-weight="700" letter-spacing="1">COSA CONTROLLI</text>
+  <text x="68" y="598" fill="#FFFFFF" font-size="13" font-family="sans-serif">Capienza giornaliera per risorsa</text>
+  <text x="68" y="622" fill="#FFFFFF" font-size="13" font-family="sans-serif">Occupazione vs disponibilita</text>
+  <text x="68" y="646" fill="#FFFFFF" font-size="13" font-family="sans-serif">Chiusure e ferie in un click</text>
+
+  <rect x="388" y="540" width="320" height="120" rx="3" fill="#FFFFFF" stroke="#245A52" stroke-width="2"/>
+  <text x="408" y="570" fill="#245A52" font-size="12" font-family="sans-serif" font-weight="700" letter-spacing="1">EVIDENZIATO</text>
+  <text x="408" y="598" fill="#171717" font-size="13" font-family="sans-serif">Cella con bordo = giorno selezionato</text>
+  <text x="408" y="622" fill="#171717" font-size="13" font-family="sans-serif">Dropdown Disp. = modifica capienza</text>
+  <text x="408" y="646" fill="#686868" font-size="12" font-family="sans-serif">Valori numerici schematizzati</text>
+
+  <rect x="728" y="540" width="324" height="120" rx="3" fill="#F5F4F0" stroke="#D9D8D3"/>
+  <text x="748" y="570" fill="#245A52" font-size="12" font-family="sans-serif" font-weight="700" letter-spacing="1">IDEALE PER</text>
+  <text x="748" y="598" fill="#171717" font-size="13" font-family="sans-serif">Eventi ad alta capacita</text>
+  <text x="748" y="622" fill="#171717" font-size="13" font-family="sans-serif">Parchi, spiagge, eventi online</text>
+  <text x="748" y="646" fill="#171717" font-size="13" font-family="sans-serif">Trasporti e slot multipli</text>
+</svg>

@@ -1,0 +1,45 @@
+﻿# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+service-account*.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.cursor/
+
+# Temp / local tooling
+node_modules/
+_tmp*/
+*.log
+tmp/
+dist/
+build/
+**/_screenshots/
+*.bak
+*~
+
+# Dev-only preview pages (not in nav/sitemap)
+style-preview.html
+concept-map-preview.html
+css/styles-editorial.css
+bio.html
+
+# Redundant logo sources when WebP is published (keep PNG-only logos)
+assets/loghi-collaborazioni/*.png
+!assets/loghi-collaborazioni/25-aquaventure-park-baveno.png
+!assets/loghi-collaborazioni/27-holidays-lago-maggiore.png
+
+# Unreferenced heavy presentation sources (site uses mock SVG / ui-*.png)
+progetti/ecosistema-booking/presentazione/assets/
+progetti/geo-overlay-webapp/presentazione/mappa.png
+progetti/geo-overlay-webapp/presentazione/index.png
+progetti/geo-overlay-webapp/presentazione/quadro03.png
+progetti/geo-overlay-webapp/presentazione/demo-phone-screen.png
+progetti/geo-overlay-webapp/presentazione/mock-*.svg
+progetti/self-guided-tour/presentazione/mock-*.svg
