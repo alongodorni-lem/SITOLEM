@@ -232,13 +232,13 @@ a:hover { color: var(--accent-dark); }
     align-items: stretch;
     background: var(--surface);
     border-bottom: 1px solid var(--border);
-    padding: 16px 22px 24px 22px;
-    gap: 8px;
+    padding: 20px 24px 28px 24px;
+    gap: 14px;
   }
   .nav__links.open { display: flex; }
   .nav__links a {
-    padding: 14px 16px;
-    min-height: 44px;
+    padding: 18px 18px;
+    min-height: 48px;
     width: 100%;
     font-size: 17px;
     line-height: 1.35;
@@ -255,12 +255,33 @@ a:hover { color: var(--accent-dark); }
     border-color: var(--accent-dark);
   }
   .nav__brand-name { font-size: 16px; }
-  .nav__brand img { height: 62px; }
+  .nav__brand img {
+    height: 44px;
+    width: auto;
+  }
+
+  /* Mobile body copy — darker for readability */
+  body {
+    color: #121212;
+  }
+  p,
+  .hero__subtitle,
+  .hero__lead,
+  .section__intro,
+  .events-spotlight__lead,
+  .events-spotlight__phase p,
+  .card p,
+  .service p,
+  .project-card__desc,
+  .thesis__item,
+  .geo-audit__lead,
+  .project-section p {
+    color: #1a1a1a;
+  }
 }
 
 @media (max-width: 640px) {
   .nav__brand-text { display: none; }
-  .nav__brand img { height: 66px; }
 }
 
 /* ============================================================
